@@ -9,3 +9,5 @@ data/raw/*
 !data/raw/walk_graph_meta.json
 data/interim/*
 !data/interim/reverse_geocode_cache.json
+outputs/video/frames/
+outputs/video/concat.txt

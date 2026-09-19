@@ -124,10 +124,19 @@ Scripts are ordered and each one can be run alone:
 | `scripts/03_coverage.py` | hourly walking coverage | `03_coverage*.{md,json,csv}`, `fig_03_*` |
 | `scripts/04_population.py` | population weighting, arrondissements, gap map | `04_*`, `fig_04_*` |
 | `scripts/05_greedy_sites.py` | greedy site selection + addresses | `05_proposed_sites.csv`, `fig_05_*` |
+| `scripts/06_video.py` | animated map of the day–night cycle (needs ffmpeg) | `outputs/video/paris_aed_night_gap.mp4` |
 
 `aednight/` holds the library code: `hours.py` (opening-hours parser), `network.py` (walk-network reach),
 `style.py` (figure style). Raw downloads and large intermediates are gitignored; rerunning the scripts
 recreates them.
+
+## Video
+
+`outputs/video/paris_aed_night_gap.mp4` (58 s, 1920×1080, no audio) animates the results on the real OSM
+street network: a 24-hour sweep of which streets have a reachable AED, the three night scenarios at 3am,
+the residents-without-cover map, and the candidate sites being added one by one. It is rendered by
+`scripts/06_video.py` with matplotlib and encoded with ffmpeg; every figure in it comes from steps 3–5,
+and each frame carries its data attribution.
 
 ## Repository layout
 
@@ -137,5 +146,6 @@ scripts/      numbered steps; run_all.sh runs everything
 tests/        parser tests (real Géo'DAE strings)
 data/raw/     downloads (gitignored)
 data/interim/ derived tables (gitignored)
-outputs/      reports (.md/.json), tables (.csv), figures (.png), video
+outputs/      reports (.md/.json), tables (.csv), figures (.png)
+outputs/video/ the animation (frames are gitignored)
 ```
