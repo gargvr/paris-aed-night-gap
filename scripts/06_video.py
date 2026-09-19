@@ -10,9 +10,9 @@ the site-by-site coverage curve, which reuses the step-5 sites.
 Distinct images are rendered once and held for a chosen duration by ffmpeg
 (concat demuxer), so a 75 s film needs ~180 renders rather than 2,250.
 
-Narration (optional, --narrate) is spoken by Piper, an MIT-licensed local
-neural TTS; scene durations stretch to fit the speech. Nothing is sent to a
-cloud service.
+Narration is spoken by Kokoro-82M (Apache-2.0) by default, or Piper (MIT)
+with --piper; both run locally, nothing is sent to a cloud service. Scene
+durations stretch to fit the speech.
 
 Outputs: outputs/video/paris_aed_night_gap.mp4        (with narration)
          outputs/video/paris_aed_night_gap_silent.mp4 (frames only)
@@ -47,7 +47,10 @@ T, FPS = 200.0, 30
 W, H, DPI = 1920, 1080, 120
 COVERED, UNCOVERED, SURFACE, INK, INK2 = "#2a78d6", "#dcdbd5", "#fcfcfb", "#0b0b0b", "#52514e"
 SITE, GRID_LINE = "#eb6834", "#e4e3df"
-VOICE = "en_US-lessac-medium"
+TTS = "kokoro"          # "kokoro" (more natural) or "piper" (smaller, faster)
+KOKORO_VOICE = "af_heart"   # af_heart/am_michael (US), bf_emma/bm_george (UK)
+KOKORO_SPEED = 0.96         # slightly under 1.0 reads as less rushed
+PIPER_VOICE = "en_US-lessac-medium"
 GAP_AFTER_LINE = 0.45  # seconds of silence after each narrated line
 
 # The spoken script. Keys are frame names; a line plays from that frame on.
@@ -257,25 +260,50 @@ def build_frames() -> list[list]:
     return plan
 
 
-def synthesize(plan: list[list]) -> tuple[np.ndarray, int]:
-    """Speak each narration line with Piper, stretch scenes to fit, return the track."""
+def make_speaker(engine: str):
+    """Return (speak(text) -> float32 mono audio, sample_rate)."""
+    if engine == "kokoro":
+        import warnings
+
+        warnings.filterwarnings("ignore")
+        from kokoro import KPipeline
+
+        pipe = KPipeline(lang_code="b" if KOKORO_VOICE.startswith("b") else "a",
+                         repo_id="hexgrad/Kokoro-82M")
+
+        def speak(text: str) -> np.ndarray:
+            chunks = [g.audio.numpy() for g in pipe(text, voice=KOKORO_VOICE, speed=KOKORO_SPEED)]
+            return np.concatenate(chunks).astype(np.float32)
+
+        return speak, 24000
+
+    import io
     import wave
 
     from piper import PiperVoice
 
-    voice = PiperVoice.load(RAW / f"voices/{VOICE}.onnx")
+    voice = PiperVoice.load(RAW / f"voices/{PIPER_VOICE}.onnx")
+
+    def speak(text: str) -> np.ndarray:
+        buf = io.BytesIO()
+        with wave.open(buf, "wb") as w:
+            voice.synthesize_wav(text, w)
+        buf.seek(0)
+        with wave.open(buf) as w:
+            return np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+
+    return speak, 22050
+
+
+def synthesize(plan: list[list], engine: str = TTS) -> tuple[np.ndarray, int]:
+    """Speak each narration line, stretch scenes to fit it, return the audio track."""
+    speak, rate = make_speaker(engine)
     clips = []
     for i, (_, _, key) in enumerate(plan):
         if key not in NARRATION:
             continue
-        wav_path = VID / f"line_{i:02d}.wav"
-        with wave.open(str(wav_path), "wb") as w:
-            voice.synthesize_wav(NARRATION[key], w)
-        with wave.open(str(wav_path)) as w:
-            rate = w.getframerate()
-            audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
+        audio = speak(NARRATION[key])
         clips.append((i, audio, len(audio) / rate))
-        wav_path.unlink()
 
     def starts():
         return np.concatenate([[0.0], np.cumsum([d for _, d, _ in plan])])
@@ -295,12 +323,12 @@ def synthesize(plan: list[list]) -> tuple[np.ndarray, int]:
     lines = []
     for i, audio, length in clips:
         at = starts()[i]
-        track[int(at * rate):int(at * rate) + len(audio)] = audio.astype(np.float32)
+        track[int(at * rate):int(at * rate) + len(audio)] = audio
         lines.append(f"{int(at) // 60:d}:{at % 60:05.2f}  {NARRATION[plan[i][2]]}")
     peak = float(np.abs(track).max()) or 1.0
     track = (track * (0.89 * 32767 / peak)).astype(np.int16)  # leave ~1 dB of headroom
     (VID / "narration.txt").write_text(
-        f"Narration script — {VOICE} (Piper, local TTS)\n\n" + "\n\n".join(lines) + "\n")
+        f"Narration script — {KOKORO_VOICE if engine == 'kokoro' else PIPER_VOICE} ({engine}, local TTS)\n\n" + "\n\n".join(lines) + "\n")
     return track, rate
 
 
@@ -332,8 +360,9 @@ def encode(plan: list[list], track=None, rate: int = 22050) -> Path:
 
 if __name__ == "__main__":
     narrate = "--silent" not in sys.argv
+    engine = "piper" if "--piper" in sys.argv else TTS
     plan = build_frames()
-    track, rate = synthesize(plan) if narrate else (None, 22050)
+    track, rate = synthesize(plan, engine) if narrate else (None, 22050)
     out = encode(plan, track, rate)
     total = sum(d for _, d, _ in plan)
     print(f"{len(plan)} frames, {total:.1f}s -> {out} ({out.stat().st_size / 1e6:.1f} MB)")

@@ -46,8 +46,9 @@ Night figures do **not** depend on the opening-hours assumption: they come only 
 | [BAN / api-adresse.data.gouv.fr](https://adresse.data.gouv.fr/) | addresses of proposed sites | queried 2026-09-19 |
 
 OSM data © OpenStreetMap contributors (ODbL). Géo'DAE, Filosofi and BAN are French open data
-(Licence Ouverte / Etalab). The narration voice is [Piper](https://github.com/OHF-Voice/piper1-gpl) (MIT),
-run locally with the `en_US-lessac-medium` voice.
+(Licence Ouverte / Etalab). The narration voice is [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M)
+(Apache-2.0), run locally; [Piper](https://github.com/OHF-Voice/piper1-gpl) (MIT) is available as a lighter
+alternative.
 
 **Licences.** The code in this repository is MIT ([LICENSE](LICENSE)). The derived tables, figures and video in
 `outputs/` are produced from OpenStreetMap data and are therefore subject to the
@@ -120,9 +121,8 @@ uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requi
 bash scripts/run_all.sh          # ~5 minutes after downloads; downloads ~600 MB on first run
 ```
 
-The video step also needs `ffmpeg` on the PATH, and a Piper voice:
-`python -m piper.download_voices --download-dir data/raw/voices en_US-lessac-medium` (~63 MB).
-Without either, `run_all.sh` still produces every table and figure.
+The video step also needs `ffmpeg` on the PATH; the narration downloads the Kokoro model (~330 MB) on first
+run. Without them, `run_all.sh` still produces every table and figure.
 
 Scripts are ordered and each one can be run alone:
 
@@ -148,11 +148,14 @@ the residents-without-cover map, and the candidate sites being added one by one.
 `scripts/06_video.py` with matplotlib and encoded with ffmpeg; every figure in it comes from steps 3–5,
 and each frame carries its data attribution.
 
-The narration is spoken by [Piper](https://github.com/OHF-Voice/piper1-gpl), a local neural TTS — no cloud
-service, nothing sent anywhere. The spoken script, with timings, is in `outputs/video/narration.txt`, and the
-text lives in `NARRATION` at the top of `scripts/06_video.py`. Run `python scripts/06_video.py --silent` to
-skip the voice, or change `VOICE` for a different one
-(`python -m piper.download_voices --download-dir data/raw/voices en_GB-alba-medium`).
+The narration is spoken by [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M), a local neural TTS — no
+cloud service, nothing sent anywhere. The spoken script, with timings, is written to
+`outputs/video/narration.txt`, and the text lives in `NARRATION` at the top of `scripts/06_video.py`.
+
+- `KOKORO_VOICE`: `af_heart` (default), `am_michael`, `bf_emma`, `bm_george`; `KOKORO_SPEED` sets the pace.
+- `--piper` uses [Piper](https://github.com/OHF-Voice/piper1-gpl) instead: much smaller and faster, more
+  synthetic (`python -m piper.download_voices --download-dir data/raw/voices en_US-lessac-medium`).
+- `--silent` skips narration entirely and writes only the silent cut.
 
 ## Repository layout
 

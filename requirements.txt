@@ -7,4 +7,9 @@ networkx>=3.6.1
 osmnx>=2.1.1
 matplotlib>=3.11.2
 pytest>=9.1.1
+
+# narration only (scripts/06_video.py); the analysis runs without these
+kokoro>=0.9.4
+soundfile>=0.14.0
+torch>=2.14.0
 piper-tts>=1.8.0

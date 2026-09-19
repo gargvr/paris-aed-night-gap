@@ -1,27 +1,27 @@
-Narration script — en_US-lessac-medium (Piper, local TTS)
+Narration script — af_heart (kokoro, local TTS)
 
 0:00.00  Paris has more than four thousand defibrillators on the public register. The real question is how many of them you can actually reach at three in the morning.
 
-0:08.23  This is every Paris street within a two hundred metre walk of a defibrillator that is available at that hour, across one ordinary Tuesday.
+0:10.42  This is every Paris street within a two hundred metre walk of a defibrillator that is available at that hour, across one ordinary Tuesday.
 
-0:16.03  Around eight, the city lights up, as offices, shops and pharmacies open.
+0:20.07  Around eight, the city lights up, as offices, shops and pharmacies open.
 
-0:25.08  In the evening it goes dark again. Almost all of this supply sits indoors, on daytime hours.
+0:29.13  In the evening it goes dark again. Almost all of this supply sits indoors, on daytime hours.
 
-0:31.51  At three in the morning, going by what operators themselves declare, about fifteen percent of residents have one within reach.
+0:35.88  At three in the morning, going by what operators themselves declare, about fifteen percent of residents have one within reach.
 
-0:38.98  Count only the devices that are outdoors, or marked freely accessible, and it falls to eleven percent.
+0:44.40  Count only the devices that are outdoors, or marked freely accessible, and it falls to eleven percent.
 
-0:45.20  Take out the ones behind a badge, a guard or an intercom, and about ten percent remain.
+0:51.70  Take out the ones behind a badge, a guard or an intercom, and about ten percent remain.
 
-0:50.64  That leaves roughly one point eight million residents with no defibrillator within a two hundred metre walk.
+0:58.00  That leaves roughly one point eight million residents with no defibrillator within a two hundred metre walk.
 
-0:56.62  So where would new outdoor units, open around the clock, do the most good?
+1:05.33  So where would new outdoor units, open around the clock, do the most good?
 
-1:00.88  Twenty-five of them would lift night coverage from ten percent to sixteen.
+1:10.43  Twenty-five of them would lift night coverage from ten percent to sixteen.
 
-1:05.05  Fifty take it to twenty-one percent.
+1:15.85  Fifty take it to twenty-one percent.
 
-1:08.65  A hundred reach twenty-nine. Even two hundred would still leave more than half of Paris uncovered at night.
+1:19.45  A hundred reach twenty-nine. Even two hundred would still leave more than half of Paris uncovered at night.
 
-1:14.75  These are declared opening hours, not checks on the ground, and this measures walking distance, not survival. The sites are candidates to survey. The data, the code and the limits are all published.
+1:26.40  These are declared opening hours, not checks on the ground, and this measures walking distance, not survival. The sites are candidates to survey. The data, the code and the limits are all published.
