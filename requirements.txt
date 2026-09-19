@@ -1,5 +1,10 @@
-pandas>=2.2
-numpy>=1.26
-shapely>=2.0
-matplotlib>=3.8
-pytest>=8
+pandas>=3.0.6
+numpy>=2.5.3
+scipy>=1.18.1
+shapely>=2.1.2
+pyproj>=3.8.0
+networkx>=3.6.1
+osmnx>=2.1.1
+matplotlib>=3.11.2
+pytest>=9.1.1
+piper-tts>=1.8.0

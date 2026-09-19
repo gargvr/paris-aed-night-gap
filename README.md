@@ -120,6 +120,10 @@ uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requi
 bash scripts/run_all.sh          # ~5 minutes after downloads; downloads ~600 MB on first run
 ```
 
+The video step also needs `ffmpeg` on the PATH, and a Piper voice:
+`python -m piper.download_voices --download-dir data/raw/voices en_US-lessac-medium` (~63 MB).
+Without either, `run_all.sh` still produces every table and figure.
+
 Scripts are ordered and each one can be run alone:
 
 | Script | Does | Main outputs |
