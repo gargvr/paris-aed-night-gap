@@ -1,0 +1,125 @@
+{
+  "national_rows": 187172,
+  "paris_filter": {
+    "inside_polygon": 5834,
+    "inside_polygon_and_insee_751xx": 4072,
+    "inside_polygon_insee_blank_or_other": 1762,
+    "insee_751xx_but_outside_polygon": 15
+  },
+  "status_all_paris": {
+    "c_etat_valid": {
+      "validées": 5482,
+      "en attente de validation": 350,
+      "mises en doute": 1,
+      "(blank)": 1
+    },
+    "c_etat_fonct": {
+      "En fonctionnement": 5812,
+      "Absent momentanément": 12,
+      "Hors service": 10
+    },
+    "c_doublon_true": 275,
+    "c_dae_mobile_true": 140,
+    "c_acc": {
+      "Intérieur": 5738,
+      "Extérieur": 96
+    }
+  },
+  "location_checks_all_paris": {
+    "placeholder_sites": [
+      "2.335965,48.87718",
+      "2.349,48.856",
+      "2.352222,48.856614"
+    ],
+    "placeholder_rows": 392,
+    "admin_far_rows (postcode outside 75/92/93/94)": 37,
+    "admin_border_rows (postcode 92/93/94, kept, flagged)": 22,
+    "low_precision_rows (<=3 decimals, kept, flagged)": 9
+  },
+  "ring_outside_paris": {
+    "ring_m": 400,
+    "rows": 784,
+    "clean_devices": 671,
+    "clean_locations": 609
+  },
+  "status_fail_rows": 777,
+  "location_fail_rows": 403,
+  "clean_devices": {
+    "definition": "validated AND 'En fonctionnement' AND not flagged duplicate AND not mobile AND not at a placeholder coordinate AND postcode not far from Paris",
+    "devices": 4703,
+    "distinct_locations": 4319,
+    "locations_with_2plus_devices": 226,
+    "max_devices_at_one_location": 13
+  },
+  "availability_clean": {
+    "tier_counts": {
+      "A_declared_24_7": 340,
+      "B_freetext_hours": 414,
+      "C_category_only": 3861,
+      "D_unknown": 88
+    },
+    "tier_distinct_locations": {
+      "A_declared_24_7": 306,
+      "B_freetext_hours": 382,
+      "C_category_only": 3563,
+      "D_unknown": 81
+    },
+    "declared_24_7_by_access": {
+      "Extérieur": 19,
+      "Intérieur": 321
+    },
+    "declared_24_7_freetext_contradiction": 0,
+    "c_disp_h_raw": {
+      "{\"heures ouvrables\"}": 4244,
+      "{24h/24}": 336,
+      "{\"non renseigné\"}": 88,
+      "{24h/24,\"heures ouvrables\"}": 16,
+      "{\"heures de nuit\"}": 7,
+      "{\"heures ouvrables\",\"heures de nuit\"}": 4,
+      "{\"non renseigné\",\"heures ouvrables\"}": 2,
+      "{24h/24,\"heures de nuit\"}": 2,
+      "{\"heures de nuit\",\"heures ouvrables\"}": 1,
+      "{24h/24,\"heures ouvrables\",\"heures de nuit\"}": 1,
+      "{\"heures ouvrables\",\"non renseigné\"}": 1,
+      "{\"heures ouvrables\",24h/24}": 1
+    },
+    "c_disp_j_top10": {
+      "{lundi,mardi,mercredi,jeudi,vendredi}": 2668,
+      "{7j/7}": 756,
+      "{\"non renseigné\"}": 713,
+      "{lundi,mardi,mercredi,jeudi,vendredi,samedi}": 148,
+      "{lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche}": 38,
+      "{lundi,vendredi,mardi,mercredi,jeudi}": 31,
+      "{événements}": 29,
+      "{lundi,mardi,mercredi,jeudi,vendredi,événements}": 15,
+      "{lundi,mardi,mercredi,jeudi}": 11,
+      "{7j/7,lundi,mardi,mercredi,jeudi,vendredi}": 11
+    },
+    "freetext_nonempty": 524
+  },
+  "freshness_clean": {
+    "c_maj_don_year": {
+      "(blank)": 139,
+      "2022": 4,
+      "2023": 1018,
+      "2024": 207,
+      "2025": 1016,
+      "2026": 2319
+    }
+  },
+  "manifest": {
+    "geodae": {
+      "url": "https://www.data.gouv.fr/api/1/datasets/r/edb6a9e1-2f16-4bbf-99e7-c3eb6b90794c",
+      "path": "data/raw/geodae.csv",
+      "sha256": "a54eac3ad897000f2d9d59ce13d362861e26ea7e040ed5c97425805b7ccd978d",
+      "bytes": 84468827
+    },
+    "paris_boundary": {
+      "url": "https://geo.api.gouv.fr/communes/75056?format=geojson&geometry=contour&fields=nom,code,population",
+      "path": "data/raw/paris_commune_75056.geojson",
+      "sha256": "8c756303528356dc3a619ec581d704a7c9f7101b1f8cea4c16b2b42abfe01bc6",
+      "bytes": 11194
+    },
+    "run_at": "2026-09-19T20:59:27+00:00"
+  }
+}

@@ -1,0 +1,524 @@
+{
+ "graph": {
+  "nodes_total": 89541,
+  "nodes_in_paris": 77294,
+  "edges_total": 126647,
+  "street_km_in_paris": 3942.9
+ },
+ "snap_m": {
+  "median": 21.6,
+  "p90": 51.3,
+  "p99": 92.5,
+  "max": 317.8
+ },
+ "snap_over_50m": 536,
+ "locations": {
+  "total": 4928,
+  "in_paris": 4319,
+  "ring": 609
+ },
+ "reference_all": {
+  "100": {
+   "street": 0.3392,
+   "nodes": 0.4292
+  },
+  "200": {
+   "street": 0.7149,
+   "nodes": 0.7875
+  },
+  "300": {
+   "street": 0.8582,
+   "nodes": 0.9117
+  },
+  "400": {
+   "street": 0.9118,
+   "nodes": 0.9538
+  }
+ },
+ "reference_all_paris_supply_only_200m": {
+  "street": 0.7086,
+  "nodes": 0.7806
+ },
+ "tue_03h_declared_paris_supply_only_200m": {
+  "street": 0.1538,
+  "nodes": 0.1826
+ },
+ "points": {
+  "declared|central|Tue03": {
+   "street": 0.1549,
+   "nodes": 0.1838,
+   "open_locations": 384
+  },
+  "declared|central|Tue09": {
+   "street": 0.71,
+   "nodes": 0.7829,
+   "open_locations": 4764
+  },
+  "declared|central|Tue12": {
+   "street": 0.7093,
+   "nodes": 0.7823,
+   "open_locations": 4706
+  },
+  "declared|central|Tue18": {
+   "street": 0.2014,
+   "nodes": 0.2364,
+   "open_locations": 563
+  },
+  "declared|central|Tue21": {
+   "street": 0.1651,
+   "nodes": 0.1962,
+   "open_locations": 424
+  },
+  "declared|central|Sun03": {
+   "street": 0.1507,
+   "nodes": 0.1789,
+   "open_locations": 371
+  },
+  "declared|central|Sun09": {
+   "street": 0.3109,
+   "nodes": 0.3639,
+   "open_locations": 903
+  },
+  "declared|central|Sun12": {
+   "street": 0.3115,
+   "nodes": 0.3645,
+   "open_locations": 909
+  },
+  "declared|central|Sun18": {
+   "street": 0.1583,
+   "nodes": 0.1884,
+   "open_locations": 407
+  },
+  "declared|central|Sun21": {
+   "street": 0.1554,
+   "nodes": 0.1857,
+   "open_locations": 386
+  },
+  "declared|low|Tue03": {
+   "street": 0.1549,
+   "nodes": 0.1838,
+   "open_locations": 384
+  },
+  "declared|low|Tue09": {
+   "street": 0.2589,
+   "nodes": 0.3005,
+   "open_locations": 827
+  },
+  "declared|low|Tue12": {
+   "street": 0.7093,
+   "nodes": 0.7823,
+   "open_locations": 4706
+  },
+  "declared|low|Tue18": {
+   "street": 0.2014,
+   "nodes": 0.2364,
+   "open_locations": 563
+  },
+  "declared|low|Tue21": {
+   "street": 0.1651,
+   "nodes": 0.1962,
+   "open_locations": 424
+  },
+  "declared|low|Sun03": {
+   "street": 0.1507,
+   "nodes": 0.1789,
+   "open_locations": 371
+  },
+  "declared|low|Sun09": {
+   "street": 0.1632,
+   "nodes": 0.1941,
+   "open_locations": 414
+  },
+  "declared|low|Sun12": {
+   "street": 0.3115,
+   "nodes": 0.3645,
+   "open_locations": 909
+  },
+  "declared|low|Sun18": {
+   "street": 0.1583,
+   "nodes": 0.1884,
+   "open_locations": 407
+  },
+  "declared|low|Sun21": {
+   "street": 0.1554,
+   "nodes": 0.1857,
+   "open_locations": 386
+  },
+  "declared|high|Tue03": {
+   "street": 0.1549,
+   "nodes": 0.1838,
+   "open_locations": 384
+  },
+  "declared|high|Tue09": {
+   "street": 0.71,
+   "nodes": 0.7829,
+   "open_locations": 4764
+  },
+  "declared|high|Tue12": {
+   "street": 0.7093,
+   "nodes": 0.7823,
+   "open_locations": 4706
+  },
+  "declared|high|Tue18": {
+   "street": 0.7014,
+   "nodes": 0.7746,
+   "open_locations": 4500
+  },
+  "declared|high|Tue21": {
+   "street": 0.1651,
+   "nodes": 0.1962,
+   "open_locations": 424
+  },
+  "declared|high|Sun03": {
+   "street": 0.1507,
+   "nodes": 0.1789,
+   "open_locations": 371
+  },
+  "declared|high|Sun09": {
+   "street": 0.3109,
+   "nodes": 0.3639,
+   "open_locations": 903
+  },
+  "declared|high|Sun12": {
+   "street": 0.3115,
+   "nodes": 0.3645,
+   "open_locations": 909
+  },
+  "declared|high|Sun18": {
+   "street": 0.3084,
+   "nodes": 0.3609,
+   "open_locations": 896
+  },
+  "declared|high|Sun21": {
+   "street": 0.1554,
+   "nodes": 0.1857,
+   "open_locations": 386
+  },
+  "strict|central|Tue03": {
+   "street": 0.1163,
+   "nodes": 0.1409,
+   "open_locations": 260
+  },
+  "strict|central|Tue09": {
+   "street": 0.6435,
+   "nodes": 0.7208,
+   "open_locations": 3191
+  },
+  "strict|central|Tue12": {
+   "street": 0.6429,
+   "nodes": 0.7204,
+   "open_locations": 3167
+  },
+  "strict|central|Tue18": {
+   "street": 0.1477,
+   "nodes": 0.1783,
+   "open_locations": 351
+  },
+  "strict|central|Tue21": {
+   "street": 0.1239,
+   "nodes": 0.1505,
+   "open_locations": 280
+  },
+  "strict|central|Sun03": {
+   "street": 0.112,
+   "nodes": 0.1358,
+   "open_locations": 250
+  },
+  "strict|central|Sun09": {
+   "street": 0.2252,
+   "nodes": 0.2694,
+   "open_locations": 576
+  },
+  "strict|central|Sun12": {
+   "street": 0.2253,
+   "nodes": 0.2695,
+   "open_locations": 579
+  },
+  "strict|central|Sun18": {
+   "street": 0.1179,
+   "nodes": 0.1435,
+   "open_locations": 269
+  },
+  "strict|central|Sun21": {
+   "street": 0.1157,
+   "nodes": 0.1413,
+   "open_locations": 258
+  },
+  "strict|low|Tue03": {
+   "street": 0.1163,
+   "nodes": 0.1409,
+   "open_locations": 260
+  },
+  "strict|low|Tue09": {
+   "street": 0.1823,
+   "nodes": 0.2175,
+   "open_locations": 465
+  },
+  "strict|low|Tue12": {
+   "street": 0.6429,
+   "nodes": 0.7204,
+   "open_locations": 3167
+  },
+  "strict|low|Tue18": {
+   "street": 0.1477,
+   "nodes": 0.1783,
+   "open_locations": 351
+  },
+  "strict|low|Tue21": {
+   "street": 0.1239,
+   "nodes": 0.1505,
+   "open_locations": 280
+  },
+  "strict|low|Sun03": {
+   "street": 0.112,
+   "nodes": 0.1358,
+   "open_locations": 250
+  },
+  "strict|low|Sun09": {
+   "street": 0.1197,
+   "nodes": 0.1453,
+   "open_locations": 270
+  },
+  "strict|low|Sun12": {
+   "street": 0.2253,
+   "nodes": 0.2695,
+   "open_locations": 579
+  },
+  "strict|low|Sun18": {
+   "street": 0.1179,
+   "nodes": 0.1435,
+   "open_locations": 269
+  },
+  "strict|low|Sun21": {
+   "street": 0.1157,
+   "nodes": 0.1413,
+   "open_locations": 258
+  },
+  "strict|high|Tue03": {
+   "street": 0.1163,
+   "nodes": 0.1409,
+   "open_locations": 260
+  },
+  "strict|high|Tue09": {
+   "street": 0.6435,
+   "nodes": 0.7208,
+   "open_locations": 3191
+  },
+  "strict|high|Tue12": {
+   "street": 0.6429,
+   "nodes": 0.7204,
+   "open_locations": 3167
+  },
+  "strict|high|Tue18": {
+   "street": 0.6364,
+   "nodes": 0.7138,
+   "open_locations": 3077
+  },
+  "strict|high|Tue21": {
+   "street": 0.1239,
+   "nodes": 0.1505,
+   "open_locations": 280
+  },
+  "strict|high|Sun03": {
+   "street": 0.112,
+   "nodes": 0.1358,
+   "open_locations": 250
+  },
+  "strict|high|Sun09": {
+   "street": 0.2252,
+   "nodes": 0.2694,
+   "open_locations": 576
+  },
+  "strict|high|Sun12": {
+   "street": 0.2253,
+   "nodes": 0.2695,
+   "open_locations": 579
+  },
+  "strict|high|Sun18": {
+   "street": 0.224,
+   "nodes": 0.2679,
+   "open_locations": 575
+  },
+  "strict|high|Sun21": {
+   "street": 0.1157,
+   "nodes": 0.1413,
+   "open_locations": 258
+  },
+  "strict_unconditional|central|Tue03": {
+   "street": 0.1089,
+   "nodes": 0.1319,
+   "open_locations": 243
+  },
+  "strict_unconditional|central|Tue09": {
+   "street": 0.6386,
+   "nodes": 0.7155,
+   "open_locations": 3121
+  },
+  "strict_unconditional|central|Tue12": {
+   "street": 0.638,
+   "nodes": 0.7151,
+   "open_locations": 3097
+  },
+  "strict_unconditional|central|Tue18": {
+   "street": 0.14,
+   "nodes": 0.1687,
+   "open_locations": 329
+  },
+  "strict_unconditional|central|Tue21": {
+   "street": 0.116,
+   "nodes": 0.1409,
+   "open_locations": 261
+  },
+  "strict_unconditional|central|Sun03": {
+   "street": 0.1047,
+   "nodes": 0.1268,
+   "open_locations": 233
+  },
+  "strict_unconditional|central|Sun09": {
+   "street": 0.2176,
+   "nodes": 0.2601,
+   "open_locations": 552
+  },
+  "strict_unconditional|central|Sun12": {
+   "street": 0.2174,
+   "nodes": 0.2598,
+   "open_locations": 554
+  },
+  "strict_unconditional|central|Sun18": {
+   "street": 0.1105,
+   "nodes": 0.1343,
+   "open_locations": 251
+  },
+  "strict_unconditional|central|Sun21": {
+   "street": 0.1081,
+   "nodes": 0.1319,
+   "open_locations": 240
+  },
+  "strict_unconditional|low|Tue03": {
+   "street": 0.1089,
+   "nodes": 0.1319,
+   "open_locations": 243
+  },
+  "strict_unconditional|low|Tue09": {
+   "street": 0.1738,
+   "nodes": 0.2074,
+   "open_locations": 437
+  },
+  "strict_unconditional|low|Tue12": {
+   "street": 0.638,
+   "nodes": 0.7151,
+   "open_locations": 3097
+  },
+  "strict_unconditional|low|Tue18": {
+   "street": 0.14,
+   "nodes": 0.1687,
+   "open_locations": 329
+  },
+  "strict_unconditional|low|Tue21": {
+   "street": 0.116,
+   "nodes": 0.1409,
+   "open_locations": 261
+  },
+  "strict_unconditional|low|Sun03": {
+   "street": 0.1047,
+   "nodes": 0.1268,
+   "open_locations": 233
+  },
+  "strict_unconditional|low|Sun09": {
+   "street": 0.1123,
+   "nodes": 0.1362,
+   "open_locations": 251
+  },
+  "strict_unconditional|low|Sun12": {
+   "street": 0.2174,
+   "nodes": 0.2598,
+   "open_locations": 554
+  },
+  "strict_unconditional|low|Sun18": {
+   "street": 0.1105,
+   "nodes": 0.1343,
+   "open_locations": 251
+  },
+  "strict_unconditional|low|Sun21": {
+   "street": 0.1081,
+   "nodes": 0.1319,
+   "open_locations": 240
+  },
+  "strict_unconditional|high|Tue03": {
+   "street": 0.1089,
+   "nodes": 0.1319,
+   "open_locations": 243
+  },
+  "strict_unconditional|high|Tue09": {
+   "street": 0.6386,
+   "nodes": 0.7155,
+   "open_locations": 3121
+  },
+  "strict_unconditional|high|Tue12": {
+   "street": 0.638,
+   "nodes": 0.7151,
+   "open_locations": 3097
+  },
+  "strict_unconditional|high|Tue18": {
+   "street": 0.6319,
+   "nodes": 0.7088,
+   "open_locations": 3013
+  },
+  "strict_unconditional|high|Tue21": {
+   "street": 0.116,
+   "nodes": 0.1409,
+   "open_locations": 261
+  },
+  "strict_unconditional|high|Sun03": {
+   "street": 0.1047,
+   "nodes": 0.1268,
+   "open_locations": 233
+  },
+  "strict_unconditional|high|Sun09": {
+   "street": 0.2176,
+   "nodes": 0.2601,
+   "open_locations": 552
+  },
+  "strict_unconditional|high|Sun12": {
+   "street": 0.2174,
+   "nodes": 0.2598,
+   "open_locations": 554
+  },
+  "strict_unconditional|high|Sun18": {
+   "street": 0.2163,
+   "nodes": 0.2585,
+   "open_locations": 552
+  },
+  "strict_unconditional|high|Sun21": {
+   "street": 0.1081,
+   "nodes": 0.1319,
+   "open_locations": 240
+  }
+ },
+ "thresholds_tue": {
+  "declared|03|100m": 0.0412,
+  "declared|03|200m": 0.1549,
+  "declared|03|300m": 0.3167,
+  "declared|03|400m": 0.4859,
+  "declared|12|100m": 0.331,
+  "declared|12|200m": 0.7093,
+  "declared|12|300m": 0.8557,
+  "declared|12|400m": 0.9104,
+  "strict|03|100m": 0.0305,
+  "strict|03|200m": 0.1163,
+  "strict|03|300m": 0.2474,
+  "strict|03|400m": 0.3971,
+  "strict|12|100m": 0.2654,
+  "strict|12|200m": 0.6429,
+  "strict|12|300m": 0.8262,
+  "strict|12|400m": 0.8959,
+  "strict_unconditional|03|100m": 0.0286,
+  "strict_unconditional|03|200m": 0.1089,
+  "strict_unconditional|03|300m": 0.2324,
+  "strict_unconditional|03|400m": 0.3757,
+  "strict_unconditional|12|100m": 0.2615,
+  "strict_unconditional|12|200m": 0.638,
+  "strict_unconditional|12|300m": 0.8229,
+  "strict_unconditional|12|400m": 0.8941
+ }
+}

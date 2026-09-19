@@ -1,0 +1,11 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+
+# downloads and derived data: recreated by the scripts
+data/raw/*
+!data/raw/paris_commune_75056.geojson
+!data/raw/walk_graph_meta.json
+data/interim/*
+!data/interim/reverse_geocode_cache.json

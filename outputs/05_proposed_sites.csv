@@ -1,0 +1,203 @@
+rank,lat,lon,x_l93,y_l93,osm_node,residents_gained_est,cum_share_strict_uncond_est,also_selected_by_node_allocation_within_100m,nearest_existing_aed_m,nearest_existing_aed_name,nearest_existing_aed_basis,address,address_type,address_distance_m,geocoder,arrondissement
+1,48.893786,2.373491,654064.0,6866157.5,11078813704,5224,0.1062,True,87,1090,assumed_business,98 Rue de l'Ourcq 75019 Paris,housenumber,12,api-adresse.data.gouv.fr,75019
+2,48.889378,2.371643,653924.6,6865668.5,11069636520,5216,0.1089,True,25,Emmaus Defi - Fondateur Abbe Pierre - 6 rue Archereau - Accueil Emmaus Défi,parsed_text,2 Rue Archereau 75019 Paris,housenumber,4,api-adresse.data.gouv.fr,75019
+3,48.89224,2.378851,654455.6,6865982.5,884211910,5176,0.1115,True,52,Bibliothèque Benjamin Rabier,assumed_business,116 Avenue de Flandre 75019 Paris,housenumber,21,api-adresse.data.gouv.fr,75019
+4,48.822729,2.367077,653530.4,6858260.3,11037172444,5120,0.1141,True,8,DAE-Cpam-Olympiades,assumed_business,20 Avenue d'Ivry 75013 Paris,housenumber,8,api-adresse.data.gouv.fr,75013
+5,48.847246,2.386968,655011.9,6860974.8,11101430775,4987,0.1166,True,51,VGRF Grand Paris Est - 124 boulevard Diderot - Hall showroom,parsed_text,35 Rue de Reuilly 75012 Paris,housenumber,16,api-adresse.data.gouv.fr,75012
+6,48.872653,2.399369,655943.5,6863792.9,11056957968,4981,0.1191,False,57,Bibliothèque Oscar Wilde,assumed_business,20 Rue du Télégraphe 75020 Paris,housenumber,7,api-adresse.data.gouv.fr,75020
+7,48.867871,2.377144,654309.1,6863273.8,11065117443,4688,0.1215,True,35,Ecole Polyvalente Saint Paul - 81 rue Jean-Pierre Timbaud - Devant les bureaux administratifs dans le passage des classes de maternelle,parsed_text,2 Rue Morand 75011 Paris,housenumber,9,api-adresse.data.gouv.fr,75011
+8,48.891739,2.349824,652326.8,6865944.0,11080946138,4565,0.1238,True,11,AU MOULIN DU 18,assumed_business,4 Boulevard Ornano 75018 Paris,housenumber,11,api-adresse.data.gouv.fr,75018
+9,48.856388,2.409866,656699.9,6861978.6,11107350205,4500,0.126,True,177,Docteurs Dejerine - Hall d' accueil,assumed_business,90 Rue Saint-Blaise 75020 Paris,housenumber,18,api-adresse.data.gouv.fr,75020
+10,48.889098,2.322587,650327.3,6865667.1,10228779964,4479,0.1283,False,119,OUVRAGE PARIS,assumed_business,99 Avenue de Clichy 75017 Paris,housenumber,10,api-adresse.data.gouv.fr,75017
+11,48.89313,2.337935,651456.4,6866105.8,11083299426,4472,0.1306,True,68,NEPTUNE,assumed_business,"Rue Montcalm 75018 Paris,Paris 18e Arrondissement",street,6,api-adresse.data.gouv.fr,75018
+12,48.886786,2.350868,652398.9,6865392.5,11080946530,4468,0.1328,True,40,CLA221505202,assumed_business,18 Rue des Poissonniers 75018 Paris,housenumber,9,api-adresse.data.gouv.fr,75018
+13,48.83113,2.366408,653488.7,6859194.8,11037041680,4406,0.135,False,92,DAE ESAT LEOPOLD BELLAN,assumed_business,51 Rue Clisson 75013 Paris,housenumber,18,api-adresse.data.gouv.fr,75013
+14,48.845361,2.395203,655614.6,6860760.6,11101476617,4383,0.1372,False,97,DAE MAAF - COVEA IMMOBILIER - PICPUS PARIS - 3275ES00,assumed_business,32 Rue de Picpus 75012 Paris,housenumber,5,api-adresse.data.gouv.fr,75012
+15,48.869711,2.382113,654675.2,6863475.5,11081535563,4381,0.1395,False,103,Résidence de service Pali-Kao,assumed_business,17 Rue des Couronnes 75020 Paris,housenumber,5,api-adresse.data.gouv.fr,75020
+16,48.856163,2.404835,656330.6,6861956.2,11053147322,4377,0.1417,False,36,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,108 Rue des Haies 75020 Paris,housenumber,9,api-adresse.data.gouv.fr,75020
+17,48.880824,2.372789,654001.1,6864716.6,11056831115,4350,0.1439,True,66,DAE Neoness Jaures,assumed_business,45 Rue de Meaux 75019 Paris,housenumber,6,api-adresse.data.gouv.fr,75019
+18,48.861033,2.381091,654592.6,6862511.2,11056815994,4346,0.1461,True,79,DAE CULTURESPACES - ATELIER DES LUMIERES PC sécurité ,assumed_business,94 Rue du Chemin Vert 75011 Paris,housenumber,4,api-adresse.data.gouv.fr,75011
+19,48.836209,2.310462,649386.9,6859793.9,10212396804,4346,0.1483,True,45,Gymnase de la Falguiere - Accueil -1,assumed_business,67 Rue de la Procession 75015 Paris,housenumber,9,api-adresse.data.gouv.fr,75015
+20,48.870599,2.377478,654336.0,6863576.9,11059758382,4280,0.1504,True,39,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,1 Rue de la Présentation 75011 Paris,housenumber,10,api-adresse.data.gouv.fr,75011
+21,48.878747,2.34521,651976.5,6864502.1,11032821126,4254,0.1526,True,43,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,41 Rue Marguerite de Rochechouart 75009 Paris,housenumber,8,api-adresse.data.gouv.fr,75009
+22,48.873547,2.383039,654746.4,6863901.6,11059758190,4190,0.1547,False,97,Taos Amrouche - Entrée de l'association,assumed_business,94 Rue Rébeval 75019 Paris,housenumber,10,api-adresse.data.gouv.fr,75019
+23,48.886583,2.326146,650585.8,6865385.1,11066578269,4181,0.1568,True,65,CLA232810985,none,50 Avenue de Clichy 75018 Paris,housenumber,9,api-adresse.data.gouv.fr,75018
+24,48.87538,2.402889,656204.0,6864094.2,11065114697,4119,0.1589,False,143,SLA 20 - Hall couvert à côté de l'entrée de l'atelier,assumed_business,100 Rue Haxo 75020 Paris,housenumber,13,api-adresse.data.gouv.fr,75020
+25,48.871756,2.404228,656299.1,6863690.4,11056957994,4095,0.1609,False,20,FRED PA-1 / RATP,assumed_business,183 Avenue Gambetta 75020 Paris,housenumber,4,api-adresse.data.gouv.fr,75020
+26,48.83875,2.396169,655679.9,6860024.9,11102226307,4093,0.163,True,67,Église du Saint-Esprit,assumed_business,95 Rue Claude Decaen 75012 Paris,housenumber,6,api-adresse.data.gouv.fr,75012
+27,48.87535,2.392399,655434.5,6864096.7,11055052935,4090,0.1651,False,61,DIVISION 19 - 2eme etage Gauche,assumed_business,38 Rue Levert 75020 Paris,housenumber,14,api-adresse.data.gouv.fr,75020
+28,48.843676,2.286473,647633.5,6860639.8,10804457915,4026,0.1671,False,86,Résidence services Oscar Roty - ACCUEIL,assumed_business,110 Rue de Javel 75015 Paris,housenumber,12,api-adresse.data.gouv.fr,75015
+29,48.83871,2.289628,647860.2,6860085.5,10242178937,3925,0.1691,False,85,Gymnase Saint Lambert,assumed_business,185 Rue de la Croix Nivert 75015 Paris,housenumber,6,api-adresse.data.gouv.fr,75015
+30,48.854113,2.399928,655968.8,6861731.1,11052838421,3891,0.171,True,46,EPI BUZENVAL,assumed_business,42 Rue des Vignoles 75020 Paris,housenumber,12,api-adresse.data.gouv.fr,75020
+31,48.835887,2.300745,648673.3,6859764.4,10176213417,3889,0.173,True,89,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,238 Rue de la Convention 75015 Paris,housenumber,11,api-adresse.data.gouv.fr,75015
+32,48.893007,2.327204,650669.5,6866098.8,11066698037,3885,0.175,False,28,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,2 Rue de la Jonquière 75017 Paris,housenumber,20,api-adresse.data.gouv.fr,75017
+33,48.828031,2.369462,653710.2,6858848.4,11025975293,3885,0.1769,False,133,ADNR,assumed_business,14 Rue Jean Colly 75013 Paris,housenumber,9,api-adresse.data.gouv.fr,75013
+34,48.832011,2.322254,650248.4,6859319.7,11042344839,3854,0.1789,True,106,ASSOCIATION APTE,assumed_business,29 Rue de la Sablière 75014 Paris,housenumber,10,api-adresse.data.gouv.fr,75014
+35,48.883369,2.394815,655618.5,6864987.0,11056442647,3844,0.1808,True,104,EHPAD HEROLD - ACCUEIL,assumed_business,125 Boulevard Sérurier 75019 Paris,housenumber,6,api-adresse.data.gouv.fr,75019
+36,48.870669,2.388196,655122.2,6863578.5,11059199069,3843,0.1827,True,113,COLLEGE JEAN BAPTISTE CLEMENT,assumed_business,75 Rue des Couronnes 75020 Paris,housenumber,9,api-adresse.data.gouv.fr,75020
+37,48.893737,2.322017,650289.9,6866183.2,11071176124,3830,0.1847,False,111,Permanence Sociale d'Accueil Gauthey,assumed_business,55 Rue de la Jonquière 75017 Paris,housenumber,6,api-adresse.data.gouv.fr,75017
+38,48.850545,2.271156,646516.5,6861413.8,10994947288,3828,0.1866,True,24,RITM RUE JEAN DE LAFONTAINE,assumed_business,37 Rue Jean de la Fontaine 75016 Paris,housenumber,5,api-adresse.data.gouv.fr,75016
+39,48.835804,2.399789,655943.1,6859695.3,11104445080,3815,0.1885,False,118,CRECHE MUNICIPALE EDOUARD ROBERT,assumed_business,38 Rue Claude Decaen 75012 Paris,housenumber,11,api-adresse.data.gouv.fr,75012
+40,48.894501,2.344528,651941.1,6866254.2,11081114664,3810,0.1905,False,137,CRECHE MUNICIPALE HERMEL,assumed_business,7 Rue Versigny 75018 Paris,housenumber,8,api-adresse.data.gouv.fr,75018
+41,48.857518,2.38014,654519.8,6862120.9,11056815662,3801,0.1924,True,26,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,134 Rue de la Roquette 75011 Paris,housenumber,7,api-adresse.data.gouv.fr,75011
+42,48.841728,2.282382,647331.4,6860425.9,10240520700,3767,0.1943,False,113,2624,assumed_business,45 Rue Lacordaire 75015 Paris,housenumber,7,api-adresse.data.gouv.fr,75015
+43,48.889829,2.343084,651830.9,6865735.6,11081090579,3758,0.1962,False,45,La FEMIS ,assumed_business,40 Rue du Mont Cenis 75018 Paris,housenumber,10,api-adresse.data.gouv.fr,75018
+44,48.890525,2.376619,654290.5,6865793.0,11078419603,3735,0.1981,True,47,75 - AEMO Flandre,assumed_business,94 Avenue de Flandre 75019 Paris,housenumber,23,api-adresse.data.gouv.fr,75019
+45,48.889746,2.303712,648943.9,6865751.1,13056592964,3720,0.1999,True,90,CLA232510306,assumed_business,207 Boulevard Malesherbes 75017 Paris,housenumber,12,api-adresse.data.gouv.fr,75017
+46,48.822902,2.355351,652669.6,6858286.5,9860816202,3715,0.2018,True,112,DAE LES 3 CHARDONS,assumed_business,36 Rue Damesme 75013 Paris,housenumber,3,api-adresse.data.gouv.fr,75013
+47,48.819899,2.36509,653382.0,6857946.9,13172120381,3713,0.2037,True,88,"Gymnase Carpentier
+BAT football Lachelier - Hall à droite",assumed_business,111 Boulevard Masséna 75013 Paris,housenumber,13,api-adresse.data.gouv.fr,75013
+48,48.835948,2.290327,647908.7,6859778.1,10756693783,3712,0.2056,True,64,VICE VERSA ,assumed_business,27 Rue Desnouettes 75015 Paris,housenumber,7,api-adresse.data.gouv.fr,75015
+49,48.884867,2.379492,654496.1,6865162.2,11078417805,3663,0.2074,False,55,France Travail - Paris 19ème Laumière,assumed_business,41 Avenue de Laumière 75019 Paris,housenumber,8,api-adresse.data.gouv.fr,75019
+50,48.858863,2.385225,654894.1,6862267.5,11056815015,3662,0.2093,True,142,CRECHE MUNICIPALE SERVAN,assumed_business,166B Rue de la Roquette 75011 Paris,housenumber,9,api-adresse.data.gouv.fr,75011
+51,48.826316,2.329527,650776.9,6858681.9,10959282387,3636,0.2111,False,87,Fred PA1,assumed_business,27 Rue Sarrette 75014 Paris,housenumber,4,api-adresse.data.gouv.fr,75014
+52,48.83896,2.307744,649190.0,6860101.6,10688278895,3627,0.2129,True,56,Résidence services quintinie pocession,assumed_business,17 Rue Plumet 75015 Paris,housenumber,6,api-adresse.data.gouv.fr,75015
+53,48.85901,2.40978,656695.8,6862270.1,2879837972,3588,0.2147,True,133,DAE - Théâtre aux Mains Nues,assumed_business,112B Boulevard Davout 75020 Paris,housenumber,13,api-adresse.data.gouv.fr,75020
+54,48.896594,2.338569,651506.2,6866490.6,11083300226,3586,0.2165,False,33,75 - SPPE Damrémont ,assumed_business,156 Rue Damrémont 75018 Paris,housenumber,10,api-adresse.data.gouv.fr,75018
+55,48.859816,2.278996,647101.2,6862439.4,10997355956,3585,0.2184,True,199,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,34 Rue Nicolo 75116 Paris,housenumber,6,api-adresse.data.gouv.fr,
+56,48.872919,2.363649,653323.7,6863843.0,11044408217,3575,0.2202,True,32,COLLEGE LOUISE MICHEL,assumed_business,85 Quai de Valmy 75010 Paris,housenumber,3,api-adresse.data.gouv.fr,75010
+57,48.855428,2.389602,655212.2,6861883.1,11065114163,3563,0.222,True,38,DIVISION 11,assumed_business,150 Rue de Charonne 75011 Paris,housenumber,7,api-adresse.data.gouv.fr,75011
+58,48.852631,2.385011,654873.0,6861574.7,11044365683,3562,0.2238,False,55,CRECHE MUNICIPALE DE CHANZY,assumed_business,26 Rue Chanzy 75011 Paris,housenumber,3,api-adresse.data.gouv.fr,75011
+59,48.890632,2.333408,651122.2,6865830.9,11083298435,3528,0.2255,False,126,PHARMACIE DE LA ROTONDE,assumed_business,103B Rue Lamarck 75018 Paris,housenumber,4,api-adresse.data.gouv.fr,75018
+60,48.874723,2.387489,655073.9,6864029.7,11055053066,3512,0.2273,True,74,COLLEGE FRANCOISE DOLTO,assumed_business,2 Rue de la Villette 75019 Paris,housenumber,9,api-adresse.data.gouv.fr,75019
+61,48.887173,2.319275,650082.6,6865455.0,10231907381,3490,0.2291,True,91,DAE NOLLET,assumed_business,67 Rue Truffaut 75017 Paris,housenumber,12,api-adresse.data.gouv.fr,75017
+62,48.881609,2.300525,648702.2,6864848.4,10787272484,3488,0.2308,False,113,CLA224607080,declared_24_7,103 Rue de Courcelles 75017 Paris,housenumber,4,api-adresse.data.gouv.fr,75017
+63,48.899091,2.336517,651358.0,6866769.6,13051137110,3470,0.2326,False,41,Bibliothèque Jacqueline de ROMILLY,assumed_business,37 Rue René Binet 75018 Paris,housenumber,19,api-adresse.data.gouv.fr,75018
+64,48.839792,2.400631,656008.3,6860138.3,11102227429,3434,0.2343,True,97,JMS HOLDING,assumed_business,1 Rue Louis Braille 75012 Paris,housenumber,7,api-adresse.data.gouv.fr,75012
+65,48.884329,2.314664,649741.7,6865141.8,10212147245,3431,0.2361,True,40,DAE LA FONDATION SAS - HÔTEL,assumed_business,36 Rue Legendre 75017 Paris,housenumber,8,api-adresse.data.gouv.fr,75017
+66,48.883548,2.349745,652313.6,6865033.2,11073380983,3429,0.2378,True,22,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,170 Boulevard de Magenta 75010 Paris,housenumber,12,api-adresse.data.gouv.fr,75010
+67,48.868597,2.399625,655958.8,6863341.7,11107942316,3427,0.2395,True,105,FRED PA-1 / FRANPRIX,assumed_business,19 Rue Dupont de l'Eure 75020 Paris,housenumber,7,api-adresse.data.gouv.fr,75020
+68,48.855366,2.270804,646495.6,6861950.1,10997114895,3414,0.2412,True,107,Gymnase Bauches - Accueil à droite,assumed_business,87 Rue du Ranelagh 75016 Paris,housenumber,5,api-adresse.data.gouv.fr,75016
+69,48.878454,2.400003,655994.8,6864437.6,11065114820,3400,0.243,True,127,DAE ASS St-Honoré,assumed_business,36 Rue des Bois 75019 Paris,housenumber,5,api-adresse.data.gouv.fr,75019
+70,48.829608,2.317941,649929.4,6859055.2,11042457880,3372,0.2447,True,75,EHPAD FURTADO HEINE - Chariot d'urgence,assumed_business,77 Rue Didot 75014 Paris,housenumber,4,api-adresse.data.gouv.fr,75014
+71,48.877834,2.373988,654086.4,6864383.5,11378623437,3364,0.2464,True,81,DAE OTTOBOCK - Réseau Orthopédie et Services,assumed_business,101T Avenue Simon Bolivar 75019 Paris,housenumber,9,api-adresse.data.gouv.fr,75019
+72,48.855593,2.374432,654099.3,6861910.1,11053170778,3363,0.2481,False,87,THEATRE DE LA BASTILLE - 76 rue de la Roquette - Theatre de la Bastille,parsed_text,47 Rue de la Roquette 75011 Paris,housenumber,6,api-adresse.data.gouv.fr,75011
+73,48.836784,2.403679,656229.5,6859802.1,11056564057,3356,0.2497,True,136,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,255 Avenue Daumesnil 75012 Paris,housenumber,11,api-adresse.data.gouv.fr,75012
+74,48.840472,2.299421,648580.6,6860275.1,10717578844,3355,0.2514,True,64,GESTION DU FOYER CARCEL,assumed_business,2 Rue Maublanc 75015 Paris,housenumber,8,api-adresse.data.gouv.fr,75015
+75,48.833409,2.315426,649748.5,6859479.4,11042458272,3344,0.2531,True,104,Gymnase Cange,assumed_business,33 Rue de Gergovie 75014 Paris,housenumber,11,api-adresse.data.gouv.fr,75014
+76,48.889,2.353683,652607.3,6865637.0,11080946489,3344,0.2548,True,84,Emmaus Solidarite - 33 rue Doudeauville - Dans le hall du Centre d'hébergement,declared_24_7,36 Rue Léon 75018 Paris,housenumber,6,api-adresse.data.gouv.fr,75018
+77,48.850742,2.267096,646218.8,6861438.5,10992108344,3331,0.2565,False,183,AED Cardiac Mediana 16,assumed_business,108 Avenue Mozart 75016 Paris,housenumber,10,api-adresse.data.gouv.fr,75016
+78,48.872719,2.37894,654445.1,6863811.8,12179173697,3329,0.2582,True,119,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,23 Rue de Belleville 75019 Paris,housenumber,9,api-adresse.data.gouv.fr,75019
+79,48.88391,2.289094,647866.2,6865111.7,13066527828,3316,0.2599,True,16,FRED PA-1 / FRANPRIX,assumed_business,21 Boulevard Gouvion-Saint-Cyr 75017 Paris,housenumber,8,api-adresse.data.gouv.fr,75017
+80,48.886966,2.347528,652154.1,6865414.6,11066792289,3315,0.2615,True,93,Groupe SOS Solidarites CHU Montmartre - 6 rue du Chevalier de la Barre - Escalier entrée principale,parsed_text,1 Rue Ramey 75018 Paris,housenumber,7,api-adresse.data.gouv.fr,75018
+81,48.8506,2.392445,655416.7,6861344.6,11065317275,3305,0.2632,True,28,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,247 Boulevard Voltaire 75011 Paris,housenumber,4,api-adresse.data.gouv.fr,75011
+82,48.884214,2.391322,655363.1,6865083.0,11056442987,3301,0.2649,True,169,"CRECHE 
+MUNICIPALE DE LA SOLIDARITE",assumed_business,36 Rue d'Alsace-Lorraine 75019 Paris,housenumber,11,api-adresse.data.gouv.fr,75019
+83,48.85877,2.406076,656423.8,6862245.5,11059611811,3299,0.2665,True,61,France Travail - Paris 20ème Vitruve,assumed_business,31 Rue Saint-Blaise 75020 Paris,housenumber,8,api-adresse.data.gouv.fr,75020
+84,48.891626,2.321202,650228.1,6865949.1,10231285629,3299,0.2682,False,138,Permanence Sociale d'Accueil Gauthey,assumed_business,26 Rue Sauffroy 75017 Paris,housenumber,3,api-adresse.data.gouv.fr,75017
+85,48.84278,2.295121,648267.4,6860534.5,10225414645,3291,0.2698,False,76,Gymnase Croix Nivert - Hall d'entrée droite,assumed_business,101 Rue de la Croix Nivert 75015 Paris,housenumber,14,api-adresse.data.gouv.fr,75015
+86,48.867664,2.280841,647244.6,6863310.9,11007348531,3284,0.2715,False,87,Fred PA1,assumed_business,130 Rue de la Pompe 75116 Paris,housenumber,16,api-adresse.data.gouv.fr,
+87,48.881314,2.295728,648350.1,6864818.8,10787705161,3282,0.2732,False,107,CLA224707728,none,30B Avenue Niel 75017 Paris,housenumber,9,api-adresse.data.gouv.fr,75017
+88,48.87684,2.347064,652110.8,6864288.9,11044253026,3279,0.2748,False,90,Patchwork - 26 rue de Montholon - Accueil,parsed_text,2 Rue Pierre Semard 75009 Paris,housenumber,18,api-adresse.data.gouv.fr,75009
+89,48.889278,2.297362,648477.8,6865703.2,1932413842,3273,0.2765,True,82,Centre Sportif de Reims (Broquedis) - Accueil,assumed_business,1 Rue Raymond Pitet 75017 Paris,housenumber,24,api-adresse.data.gouv.fr,75017
+90,48.84119,2.313702,649629.5,6860345.6,10820201861,3268,0.2781,True,98,DAE ,none,52 Boulevard Pasteur 75015 Paris,housenumber,10,api-adresse.data.gouv.fr,75015
+91,48.865777,2.394219,655559.8,6863031.2,11056958810,3264,0.2798,True,102,Gymnase de la Bidassoa - Accueil,assumed_business,12 Rue Villiers de l'Isle Adam 75020 Paris,housenumber,10,api-adresse.data.gouv.fr,75020
+92,48.842057,2.290489,647926.7,6860457.2,10068830562,3259,0.2814,False,145,AED Cardiac Medina 16,assumed_business,155 Rue de Javel 75015 Paris,housenumber,10,api-adresse.data.gouv.fr,75015
+93,48.851424,2.293233,648137.4,6861496.9,10782701342,3247,0.2831,False,78,LIFEPACK TYPE CR PLUS,assumed_business,25 Rue George Bernard Shaw 75015 Paris,housenumber,10,api-adresse.data.gouv.fr,75015
+94,48.857484,2.399307,655926.1,6862106.2,11052950089,3239,0.2847,True,87,LABORATOIRE ORFILA - BIO 4L,assumed_business,58 Rue de Bagnolet 75020 Paris,housenumber,8,api-adresse.data.gouv.fr,75020
+95,48.822607,2.343899,651828.6,6858260.7,10924350142,3234,0.2863,True,64,75- Brillat Savarin,assumed_business,59Z Rue Brillat-Savarin 75013 Paris,housenumber,3,api-adresse.data.gouv.fr,75013
+96,48.834418,2.295687,648300.6,6859604.3,11070803342,3234,0.288,True,38,DIVISION 7,assumed_business,47 Rue Olivier de Serres 75015 Paris,housenumber,3,api-adresse.data.gouv.fr,75015
+97,48.890593,2.326476,650613.9,6865830.8,10228803645,3213,0.2896,False,50,ASSO CASA DELTA 7 ,assumed_business,1 Rue Davy 75017 Paris,housenumber,9,api-adresse.data.gouv.fr,75017
+98,48.869218,2.409153,656658.3,6863405.5,11435985564,3194,0.2912,False,85,CRECHE MUNICIPALE DE LA JUSTICE,assumed_business,78 Boulevard Mortier 75020 Paris,housenumber,11,api-adresse.data.gouv.fr,75020
+99,48.877606,2.340879,651657.9,6864377.8,11032821233,3194,0.2928,True,52,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,14 Rue Choron 75009 Paris,housenumber,8,api-adresse.data.gouv.fr,75009
+100,48.852722,2.406542,656452.9,6861572.7,11065210375,3179,0.2944,True,42,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,100 Rue d'Avron 75020 Paris,housenumber,6,api-adresse.data.gouv.fr,75020
+101,48.837979,2.257898,645530.5,6860025.7,11013722342,3177,0.296,False,66,DAE-PorteStCloud-PCC,declared_24_7,219 Avenue de Versailles 75016 Paris,housenumber,8,api-adresse.data.gouv.fr,75016
+102,48.895693,2.326462,650617.7,6866397.9,11071223386,3162,0.2976,True,108,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,20 Rue Navier 75017 Paris,housenumber,7,api-adresse.data.gouv.fr,75017
+103,48.877593,2.394367,655580.8,6864345.0,11056443413,3146,0.2992,False,31,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,5 Rue Louise Thuliez 75019 Paris,housenumber,3,api-adresse.data.gouv.fr,75019
+104,48.837928,2.297591,648443.8,6859993.4,10218261506,3134,0.3008,True,37,MY AUCHAN VAUGIRARD,assumed_business,304 Rue de Vaugirard 75015 Paris,housenumber,5,api-adresse.data.gouv.fr,75015
+105,48.879813,2.349685,652305.8,6864617.9,11073354358,3130,0.3024,True,94,FNECS,assumed_business,67 Rue de Maubeuge 75010 Paris,housenumber,12,api-adresse.data.gouv.fr,75010
+106,48.835928,2.321799,650218.7,6859755.5,11071234545,3126,0.3039,True,70,CLA235114325,assumed_business,16 Rue Raymond Losserand 75014 Paris,housenumber,10,api-adresse.data.gouv.fr,75014
+107,48.871347,2.360284,653075.5,6863670.2,11044408919,3125,0.3055,True,39,DAE Episod Bonsergent Studio Bootcamp,assumed_business,9T Rue Lucien Sampaix 75010 Paris,housenumber,12,api-adresse.data.gouv.fr,75010
+108,48.890121,2.361288,653165.9,6865757.1,11068729443,3123,0.3071,False,108,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,77 Rue Riquet 75018 Paris,housenumber,12,api-adresse.data.gouv.fr,75018
+109,48.840261,2.286044,647598.7,6860260.3,10232633085,3118,0.3087,True,29,CRECHE COLLECTIVE FELIX KELLER,assumed_business,16 Rue Duranton 75015 Paris,housenumber,12,api-adresse.data.gouv.fr,75015
+110,48.862442,2.363226,653283.3,6862678.3,11050857066,3115,0.3102,True,64,DAE MAISON SAINTONGE,assumed_business,21 Rue de Bretagne 75003 Paris,housenumber,6,api-adresse.data.gouv.fr,75003
+111,48.884812,2.368336,653678.0,6865162.6,13278371946,3104,0.3118,False,69,Bibliothèque Hergé,assumed_business,"Rue Gaston Rébuffat 75019 Paris,Paris 19e Arrondissement",street,3,api-adresse.data.gouv.fr,75019
+112,48.853889,2.396151,655691.5,6861708.2,11052627274,3100,0.3134,True,62,DAE CHANTIER LEGENDRE MURMURE,assumed_business,73 Boulevard de Charonne 75011 Paris,housenumber,4,api-adresse.data.gouv.fr,75011
+113,48.871599,2.395652,655669.9,6863677.8,11059222062,3093,0.3149,False,138,CRECHE MUNICIPALE GUIGNIER,assumed_business,27 Rue Pixérécourt 75020 Paris,housenumber,8,api-adresse.data.gouv.fr,75020
+114,48.842822,2.402232,656128.3,6860474.4,11104445756,3081,0.3165,True,89,DIVISION 12,assumed_business,25 Rue Sibuet 75012 Paris,housenumber,6,api-adresse.data.gouv.fr,75012
+115,48.855987,2.386121,654957.3,6861947.3,11052634104,3065,0.318,False,156,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,49Z Rue Léon Frot 75011 Paris,housenumber,6,api-adresse.data.gouv.fr,75011
+116,48.863914,2.370645,653828.8,6862837.6,11064617508,3062,0.3196,True,91,LE BATACLAN,assumed_business,30 Rue Oberkampf 75011 Paris,housenumber,12,api-adresse.data.gouv.fr,75011
+117,48.841593,2.387608,655054.0,6860345.9,3537307227,3056,0.3211,True,75,Mairie 12EME - RDC loge du gardien,assumed_business,153 Avenue Daumesnil 75012 Paris,housenumber,18,api-adresse.data.gouv.fr,75012
+118,48.828924,2.298987,648537.4,6858991.3,11070883934,3055,0.3227,True,51,PARKELIS,assumed_business,82 Boulevard Lefebvre 75015 Paris,housenumber,14,api-adresse.data.gouv.fr,75015
+119,48.829385,2.322614,650272.3,6859027.5,11037035883,3054,0.3242,True,36,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,108 Rue d'Alésia 75014 Paris,housenumber,9,api-adresse.data.gouv.fr,75014
+120,48.842712,2.302787,648829.9,6860522.0,10225492252,3031,0.3257,True,31,SANAMENTE,assumed_business,112 Rue Lecourbe 75015 Paris,housenumber,7,api-adresse.data.gouv.fr,75015
+121,48.838197,2.281266,647245.9,6860034.1,10232645949,3018,0.3272,True,71,DAE ESRA 194 Lourmel,assumed_business,121 Avenue Félix Faure 75015 Paris,housenumber,10,api-adresse.data.gouv.fr,75015
+122,48.894498,2.34787,652186.1,6866251.8,11080945927,3015,0.3288,True,59,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,2 Rue Neuve de la Chardonnière 75018 Paris,housenumber,5,api-adresse.data.gouv.fr,75018
+123,48.830204,2.345956,651986.6,6859104.1,11015721339,3014,0.3303,False,63,DAE Neoness Blanqui,assumed_business,99 Boulevard Auguste Blanqui 75013 Paris,housenumber,19,api-adresse.data.gouv.fr,75013
+124,48.879157,2.290967,647998.8,6864582.0,11013832032,2987,0.3318,True,53,Église Saint-Ferdinand-Sainte-Thérèse-de-l'Enfant-Jésus,assumed_business,5 Place Tristan Bernard 75017 Paris,housenumber,11,api-adresse.data.gouv.fr,75017
+125,48.848183,2.290132,647906.6,6861138.5,10068818753,2986,0.3333,False,129,ISRP PARIS 15éme,assumed_business,61 Rue du Théâtre 75015 Paris,housenumber,11,api-adresse.data.gouv.fr,75015
+126,48.867223,2.383312,654761.0,6863198.2,11056816273,2983,0.3348,True,72,FRED PA-1 / RATP,assumed_business,2 Boulevard de Belleville 75020 Paris,housenumber,7,api-adresse.data.gouv.fr,75020
+127,48.844981,2.289533,647859.5,6860782.8,10057003893,2969,0.3363,False,95,EHPAD ANSELME PAYEN,assumed_business,70 Rue des Entrepreneurs 75015 Paris,housenumber,8,api-adresse.data.gouv.fr,75015
+128,48.835822,2.394177,655531.2,6859700.5,11104444145,2965,0.3378,False,25,DAE Milleis Bercy St Emilion,assumed_business,22 Rue Nicolaï 75012 Paris,housenumber,6,api-adresse.data.gouv.fr,75012
+129,48.868512,2.347742,652152.9,6863362.5,11052642215,2965,0.3393,True,88,KC - PARIS CLERY,assumed_business,2 Rue Poissonnière 75002 Paris,housenumber,7,api-adresse.data.gouv.fr,75002
+130,48.846758,2.285394,647557.5,6860983.2,10068696989,2963,0.3408,False,41,FRED PA-1 / RATP,assumed_business,2 Place Charles Michels 75015 Paris,housenumber,21,api-adresse.data.gouv.fr,75015
+131,48.880541,2.340478,651631.2,6864704.4,11032821389,2963,0.3423,True,127,BRISELAME,assumed_business,60 Rue des Martyrs 75009 Paris,housenumber,13,api-adresse.data.gouv.fr,75009
+132,48.840894,2.265582,646097.5,6860344.5,10992352743,2944,0.3438,False,219,CPA POINT DU JOUR MALLETERRE,assumed_business,22 Boulevard Exelmans 75016 Paris,housenumber,8,api-adresse.data.gouv.fr,75016
+133,48.853433,2.377243,654303.7,6861668.3,11053170605,2943,0.3453,True,54,MAISON DE SANTE FAIDHERBE,assumed_business,115 Avenue Ledru-Rollin 75011 Paris,housenumber,3,api-adresse.data.gouv.fr,75011
+134,48.830398,2.370419,653782.5,6859111.1,14157935324,2939,0.3468,False,24,Université Assas Paris II - Charcot - Accueil RDC,parsed_text,16 Rue Dunois 75013 Paris,housenumber,11,api-adresse.data.gouv.fr,75013
+135,48.866872,2.373216,654020.0,6863165.0,11064617315,2937,0.3482,False,73,CLA240816476,assumed_business,103 Avenue Parmentier 75011 Paris,housenumber,13,api-adresse.data.gouv.fr,75011
+136,48.85165,2.400628,656018.1,6861456.8,11065210306,2935,0.3497,True,53,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,24 Rue d'Avron 75020 Paris,housenumber,5,api-adresse.data.gouv.fr,75020
+137,48.839151,2.390029,655229.6,6860073.0,12641080422,2927,0.3512,False,27,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,5 Boulevard de Reuilly 75012 Paris,housenumber,24,api-adresse.data.gouv.fr,75012
+138,48.860713,2.375488,654181.3,6862478.8,11053170233,2919,0.3527,False,74,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,73 Boulevard Voltaire 75011 Paris,housenumber,11,api-adresse.data.gouv.fr,75011
+139,48.844461,2.410054,656703.7,6860652.3,11056563758,2913,0.3541,True,63,PHARMACIE PORTE DE SAINT MANDE,assumed_business,111 Avenue de Saint-Mandé 75012 Paris,housenumber,11,api-adresse.data.gouv.fr,75012
+140,48.863928,2.381014,654589.5,6862833.1,11037488612,2905,0.3556,False,51,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,20 Rue Guillaume Bertrand 75011 Paris,housenumber,17,api-adresse.data.gouv.fr,75011
+141,48.872898,2.389515,655220.9,6863825.6,10642599342,2903,0.3571,False,90,GROUPE SOS JEUNESSE,assumed_business,4 Place Henri Krasucki 75020 Paris,housenumber,6,api-adresse.data.gouv.fr,75020
+142,48.893213,2.361319,653171.0,6866100.9,11068729691,2889,0.3585,False,53,LA MAISON BAKHITA,assumed_business,15 Rue de la Madone 75018 Paris,housenumber,8,api-adresse.data.gouv.fr,75018
+143,48.889908,2.338673,651507.6,6865747.1,11083224995,2880,0.36,False,44,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,3 Rue Pierre Dac 75018 Paris,housenumber,8,api-adresse.data.gouv.fr,75018
+144,48.821524,2.350156,652287.0,6858136.4,1773477750,2880,0.3614,True,125,CA Poterne des Peupliers,assumed_business,12 Rue Madeleine Brès 75013 Paris,housenumber,6,api-adresse.data.gouv.fr,75013
+145,48.88151,2.316185,649850.6,6864827.3,10212135418,2875,0.3629,True,59,FRED PA-1 / RATP,assumed_business,"Place Prosper Goubaux 75017 Paris,Paris 17e Arrondissement",street,9,api-adresse.data.gouv.fr,75017
+146,48.86642,2.406237,656442.0,6863095.9,11067273110,2871,0.3643,False,223,Emmaus Solidarite - 19 rue Le Bua - Salle commune,parsed_text,5 Place Octave Chanute 75020 Paris,housenumber,9,api-adresse.data.gouv.fr,75020
+147,48.88762,2.38233,654706.7,6865466.8,11080256971,2859,0.3658,False,133,COS Alice Guy - 10 rue de Colmar - Hall d’accueil à côté de l’ascenseur,parsed_text,16 Rue Léon Giraud 75019 Paris,housenumber,8,api-adresse.data.gouv.fr,75019
+148,48.85281,2.388726,655145.7,6861592.5,11052536728,2852,0.3672,True,17,DAE Episod Nation Studio Cycling,assumed_business,199 Boulevard Voltaire 75011 Paris,housenumber,11,api-adresse.data.gouv.fr,75011
+149,48.889532,2.349787,652322.1,6865698.5,11080946372,2839,0.3686,False,33,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,76B Boulevard Barbès 75018 Paris,housenumber,10,api-adresse.data.gouv.fr,75018
+150,48.891046,2.330877,650936.9,6865878.4,11083298514,2837,0.3701,True,89,COLLEGE ANTOINE COYSEVOX,assumed_business,142 Rue Lamarck 75018 Paris,housenumber,7,api-adresse.data.gouv.fr,75018
+151,48.824929,2.346753,652040.2,6858517.1,10945616703,2833,0.3715,False,124,DAE-Maison de la Radiologie,assumed_business,51 Rue de l'Espérance 75013 Paris,housenumber,13,api-adresse.data.gouv.fr,75013
+152,48.886893,2.308239,649273.1,6865431.0,10211758497,2831,0.3729,True,23,CSMF,assumed_business,19 Rue Cernuschi 75017 Paris,housenumber,8,api-adresse.data.gouv.fr,75017
+153,48.881916,2.292074,648082.8,6864888.0,10889861463,2824,0.3744,False,55,GCC-CHANTIER ,assumed_business,40 Rue Bayen 75017 Paris,housenumber,8,api-adresse.data.gouv.fr,75017
+154,48.825632,2.374664,654090.0,6858578.6,10737354894,2823,0.3758,True,49,LYCEE GALILEE,assumed_business,33 Rue du Dessous des Berges 75013 Paris,housenumber,9,api-adresse.data.gouv.fr,75013
+155,48.856396,2.39417,655548.2,6861988.1,11052525785,2818,0.3772,False,30,Piscine Georges Rigal - Bassin,assumed_business,182 Rue de Charonne 75011 Paris,housenumber,5,api-adresse.data.gouv.fr,75011
+156,48.830183,2.333942,651104.6,6859109.1,4508910460,2811,0.3786,False,73,Catacombes - CATACOMBES sortie,assumed_business,16 Avenue René Coty 75014 Paris,housenumber,17,api-adresse.data.gouv.fr,75014
+157,48.848714,2.293921,648185.2,6861195.1,11070824753,2811,0.38,False,28,KUBIK ARCHITECTE,assumed_business,18B Rue Violet 75015 Paris,housenumber,5,api-adresse.data.gouv.fr,75015
+158,48.848733,2.274856,646786.2,6861209.9,10994694906,2810,0.3815,False,79,DAE HOTEL FELICIEN PARIS,assumed_business,"Rue Degas 75016 Paris,Paris 16e Arrondissement",street,10,api-adresse.data.gouv.fr,75016
+159,48.879535,2.389718,655241.5,6864563.5,11056443252,2809,0.3829,False,44,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,42 Rue de Crimée 75019 Paris,housenumber,8,api-adresse.data.gouv.fr,75019
+160,48.832499,2.325845,650512.5,6859371.6,11042458898,2802,0.3843,True,90,Mairie 14EME - RDC DROITE,assumed_business,16 Rue Pierre Castagnou 75014 Paris,housenumber,7,api-adresse.data.gouv.fr,75014
+161,48.886834,2.355587,652745.0,6865395.0,11080498589,2799,0.3857,False,70,Centre de vaccination Picpus,assumed_business,24 Rue Affre 75018 Paris,housenumber,4,api-adresse.data.gouv.fr,75018
+162,48.84074,2.404753,656311.6,6860241.4,11056563892,2798,0.3871,False,68,CRECHE MUNICIPALE MARIE LAURENCIN,assumed_business,128 Avenue du Général Michel Bizot 75012 Paris,housenumber,12,api-adresse.data.gouv.fr,75012
+163,48.835978,2.359061,652953.8,6859738.1,11037160037,2796,0.3885,True,48,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,115 Boulevard de l'Hôpital 75013 Paris,housenumber,9,api-adresse.data.gouv.fr,75013
+164,48.829194,2.308672,649248.7,6859015.1,11042458485,2793,0.3899,True,60,Maison de retraite et foyer les Arbustes,assumed_business,195B Rue Raymond Losserand 75014 Paris,housenumber,4,api-adresse.data.gouv.fr,75014
+165,48.886335,2.322388,650310.1,6865360.0,10228671451,2778,0.3913,False,72,CRECHE MUNICIPALE NOLLET,assumed_business,35 Rue Nollet 75017 Paris,housenumber,8,api-adresse.data.gouv.fr,75017
+166,48.882923,2.374862,654154.9,6864948.8,11056853849,2774,0.3927,False,62,Atelier Meaux,assumed_business,60 Rue Armand Carrel 75019 Paris,housenumber,2,api-adresse.data.gouv.fr,75019
+167,48.880436,2.33487,651219.8,6864696.2,11025948267,2769,0.3941,False,87,FEDEA CONSEIL & FORMATION,assumed_business,1 Rue Chaptal 75009 Paris,housenumber,12,api-adresse.data.gouv.fr,75009
+168,48.845226,2.258319,645569.0,6860831.2,10989606526,2769,0.3955,False,103,INSEEC,assumed_business,101 Boulevard Exelmans 75016 Paris,housenumber,9,api-adresse.data.gouv.fr,75016
+169,48.871164,2.400727,656041.8,6863626.5,11056958436,2766,0.3969,False,137,Bibliothèque Oscar Wilde,assumed_business,14 Rue Saint-Fargeau 75020 Paris,housenumber,6,api-adresse.data.gouv.fr,75020
+170,48.864183,2.408951,656639.2,6862845.8,11124905804,2763,0.3983,True,105,FRED PA-1 / RATP,assumed_business,"Place de la Porte de Bagnolet 75020 Paris,Paris 20e Arrondissement",street,16,api-adresse.data.gouv.fr,75020
+171,48.863793,2.354987,652680.0,6862833.3,11052621123,2760,0.3997,False,5,PREVIFRANCE PARIS 13,assumed_business,70 Rue Beaubourg 75003 Paris,housenumber,5,api-adresse.data.gouv.fr,75003
+172,48.876241,2.379509,654489.9,6864203.0,11059758255,2759,0.4011,False,166,GYMNASE BOLIVAR,assumed_business,16 Rue des Dunes 75019 Paris,housenumber,15,api-adresse.data.gouv.fr,75019
+173,48.833837,2.307983,649202.6,6859531.7,10242182514,2753,0.4025,True,115,INSTITUT D'ETUDES EUROPEENNES,assumed_business,54 Rue de Vouillé 75015 Paris,housenumber,7,api-adresse.data.gouv.fr,75015
+174,48.886267,2.394464,655595.3,6865309.5,11056443837,2750,0.4039,False,216,Centre solidarité Angèle Mercier,assumed_business,2 Avenue de la Porte Chaumont 75019 Paris,housenumber,12,api-adresse.data.gouv.fr,75019
+175,48.858371,2.284624,647512.7,6862275.0,10984447361,2747,0.4053,False,171,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,1 Rue Raynouard 75016 Paris,housenumber,6,api-adresse.data.gouv.fr,75016
+176,48.822364,2.358652,652911.5,6858224.7,11690464842,2746,0.4067,False,41,COLLEGE EVARISTE GALOIS,assumed_business,111 Avenue d'Italie 75013 Paris,housenumber,7,api-adresse.data.gouv.fr,75013
+177,48.843211,2.352376,652469.7,6860546.5,11037634071,2735,0.4081,True,114,BOWLING MOUFFETARD-HURE JONATHAN,assumed_business,3 Rue Malus 75005 Paris,housenumber,5,api-adresse.data.gouv.fr,75005
+178,48.828834,2.365236,653400.7,6858940.2,10223314833,2720,0.4094,True,69,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,3 Place Nationale 75013 Paris,housenumber,16,api-adresse.data.gouv.fr,75013
+179,48.850813,2.378412,654387.2,6861376.3,11056815393,2719,0.4108,True,40,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,143 Rue du Faubourg Saint-Antoine 75011 Paris,housenumber,4,api-adresse.data.gouv.fr,75011
+180,48.83095,2.312451,649527.8,6859207.9,11042458370,2718,0.4122,True,51,CMS Ridder,assumed_business,153 Rue Raymond Losserand 75014 Paris,housenumber,7,api-adresse.data.gouv.fr,75014
+181,48.846671,2.308724,649269.5,6860958.3,10707720817,2714,0.4135,False,105,FRED PA-1 / RATP,assumed_business,18 Rue Valentin Haüy 75015 Paris,housenumber,7,api-adresse.data.gouv.fr,75015
+182,48.892058,2.342924,651821.2,6865983.6,11081374255,2713,0.4149,False,67,CLA214202069,assumed_business,11 Rue Duc 75018 Paris,housenumber,5,api-adresse.data.gouv.fr,75018
+183,48.886898,2.386332,654999.5,6865384.1,11078981457,2705,0.4163,False,46,DAE APPART CITY - PARIS LA VILLETTE,assumed_business,142 Avenue Jean Jaurès 75019 Paris,housenumber,13,api-adresse.data.gouv.fr,75019
+184,48.826336,2.34188,651683.7,6858676.5,10939831793,2698,0.4176,False,64,FRED EASY LIFE D.E.A,assumed_business,"Place Coluche 75013 Paris,Paris 13e Arrondissement",street,13,api-adresse.data.gouv.fr,75013
+185,48.845458,2.302132,648784.6,6860827.7,10713046478,2694,0.419,True,53,CLA220803969,assumed_business,42 Rue Miollis 75015 Paris,housenumber,4,api-adresse.data.gouv.fr,75015
+186,48.848036,2.264406,646018.6,6861139.5,10991849270,2692,0.4204,True,23,FRED PA-1 / RATP,assumed_business,48 Rue d'Auteuil 75016 Paris,housenumber,22,api-adresse.data.gouv.fr,75016
+187,48.871687,2.368022,653643.4,6863703.5,11050757009,2681,0.4217,True,57,Emmaus Paris - 35 rue Bichat - ESI Bichat,parsed_text,38 Rue Bichat 75010 Paris,housenumber,8,api-adresse.data.gouv.fr,75010
+188,48.868664,2.355538,652724.9,6863374.7,11044409010,2680,0.4231,False,103,Gymate Arts Métiers-SWEATIME,assumed_business,330 Rue Saint-Martin 75003 Paris,housenumber,6,api-adresse.data.gouv.fr,75003
+189,48.883164,2.32657,650613.7,6865004.7,11027890135,2679,0.4244,False,46,Auchan Batignolles ,assumed_business,5 Boulevard des Batignolles 75008 Paris,housenumber,12,api-adresse.data.gouv.fr,75008
+190,48.849022,2.412994,656923.3,6861157.8,11101808941,2674,0.4258,True,69,Bibliothèque Assia Djebar,assumed_business,13 Rue Louis Delaporte 75020 Paris,housenumber,16,api-adresse.data.gouv.fr,75020
+191,48.857962,2.376903,654282.7,6862172.2,11053170887,2657,0.4271,True,34,CRECHE MUNICIPALE POPINCOURT,assumed_business,23 Rue Popincourt 75011 Paris,housenumber,5,api-adresse.data.gouv.fr,75011
+192,48.893431,2.376608,654292.2,6866116.2,11069351355,2643,0.4284,False,25,FPS ABV Archereau - 71 rue Archereau - 3ème étage en face l'ascenseur,parsed_text,91 Rue de l'Ourcq 75019 Paris,housenumber,10,api-adresse.data.gouv.fr,75019
+193,48.836705,2.304276,648933.3,6859853.0,10210282047,2640,0.4298,True,108,FRED EASY LIFE D.E.A,assumed_business,52 Rue d'Alleray 75015 Paris,housenumber,12,api-adresse.data.gouv.fr,75015
+194,48.869136,2.391805,655385.6,6863406.0,11059221771,2636,0.4311,False,71,CLA222606107,assumed_business,92 Rue de Ménilmontant 75020 Paris,housenumber,4,api-adresse.data.gouv.fr,75020
+195,48.861048,2.385201,654894.2,6862510.5,13078366990,2631,0.4324,False,66,Conservatoire Charles Munch,assumed_business,38 Rue Merlin 75011 Paris,housenumber,12,api-adresse.data.gouv.fr,75011
+196,48.83491,2.326918,650593.5,6859639.1,11042459003,2625,0.4338,False,88,CRECHE MUNICIPALE LIANCOURT,assumed_business,53 Rue Daguerre 75014 Paris,housenumber,6,api-adresse.data.gouv.fr,75014
+197,48.894553,2.381519,654653.2,6866238.2,11078813924,2620,0.4351,False,157,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,173 Avenue de Flandre 75019 Paris,housenumber,5,api-adresse.data.gouv.fr,75019
+198,48.829675,2.329792,650799.5,6859055.2,11070834269,2616,0.4364,False,120,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,50 Rue Rémy Dumoncel 75014 Paris,housenumber,4,api-adresse.data.gouv.fr,75014
+199,48.866049,2.379281,654464.3,6863069.9,11037488681,2615,0.4377,True,68,LOHEZIC.G,assumed_business,114 Rue Oberkampf 75011 Paris,housenumber,10,api-adresse.data.gouv.fr,75011
+200,48.852872,2.275696,646852.1,6861669.5,10992294106,2605,0.439,False,82,FRED PA-1 ENTIEREMENT AUTOMATIQUE,assumed_business,2 Rue Jean de la Fontaine 75016 Paris,housenumber,8,api-adresse.data.gouv.fr,75016

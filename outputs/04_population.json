@@ -1,0 +1,406 @@
+{
+ "population_source": {
+  "dataset": "INSEE Filosofi 2021, donn\u00e9es carroy\u00e9es 200 m (y compris imput\u00e9es)",
+  "page": "https://www.insee.fr/fr/statistiques/8735162",
+  "file": "https://www.insee.fr/fr/statistiques/fichier/8735162/Filosofi2021_carreaux_200m_csv.zip",
+  "published": "2026-02-16",
+  "reference_year": 2021
+ },
+ "cells_loaded": 4262,
+ "residents_on_paris_streets": 1981133,
+ "residents_paris_cells_majority_751xx": 1973038,
+ "residents_in_imputed_cells_share": 0.003,
+ "orphan_cells_moved_to_nearest_street": {
+  "n": 111,
+  "residents": 67538,
+  "max_move_m": 198.7
+ },
+ "cells_outside_network_dropped": {
+  "n": 1586,
+  "residents": 871107,
+  "with_751xx_code": 0
+ },
+ "paris_street_km_with_zero_residents_share": 0.1772,
+ "reference_all": {
+  "100": 0.3977,
+  "200": 0.8403,
+  "300": 0.9714,
+  "400": 0.9935
+ },
+ "points": {
+  "declared|central|Tue03": {
+   "pop_share": 0.1515,
+   "node_alloc": 0.1617,
+   "residents_covered": 300112
+  },
+  "declared|central|Tue09": {
+   "pop_share": 0.8363,
+   "node_alloc": 0.8598,
+   "residents_covered": 1656755
+  },
+  "declared|central|Tue12": {
+   "pop_share": 0.8352,
+   "node_alloc": 0.8591,
+   "residents_covered": 1654720
+  },
+  "declared|central|Tue18": {
+   "pop_share": 0.2012,
+   "node_alloc": 0.2109,
+   "residents_covered": 398512
+  },
+  "declared|central|Sun03": {
+   "pop_share": 0.1474,
+   "node_alloc": 0.1577,
+   "residents_covered": 292008
+  },
+  "declared|central|Sun09": {
+   "pop_share": 0.3442,
+   "node_alloc": 0.3634,
+   "residents_covered": 681911
+  },
+  "declared|central|Sun12": {
+   "pop_share": 0.3447,
+   "node_alloc": 0.3638,
+   "residents_covered": 682859
+  },
+  "declared|central|Sun18": {
+   "pop_share": 0.153,
+   "node_alloc": 0.1632,
+   "residents_covered": 303165
+  },
+  "declared|low|Tue03": {
+   "pop_share": 0.1515,
+   "node_alloc": 0.1617,
+   "residents_covered": 300112
+  },
+  "declared|low|Tue09": {
+   "pop_share": 0.2771,
+   "node_alloc": 0.291,
+   "residents_covered": 548930
+  },
+  "declared|low|Tue12": {
+   "pop_share": 0.8352,
+   "node_alloc": 0.8591,
+   "residents_covered": 1654720
+  },
+  "declared|low|Tue18": {
+   "pop_share": 0.2012,
+   "node_alloc": 0.2109,
+   "residents_covered": 398512
+  },
+  "declared|low|Sun03": {
+   "pop_share": 0.1474,
+   "node_alloc": 0.1577,
+   "residents_covered": 292008
+  },
+  "declared|low|Sun09": {
+   "pop_share": 0.1605,
+   "node_alloc": 0.1714,
+   "residents_covered": 318065
+  },
+  "declared|low|Sun12": {
+   "pop_share": 0.3447,
+   "node_alloc": 0.3638,
+   "residents_covered": 682859
+  },
+  "declared|low|Sun18": {
+   "pop_share": 0.153,
+   "node_alloc": 0.1632,
+   "residents_covered": 303165
+  },
+  "declared|high|Tue03": {
+   "pop_share": 0.1515,
+   "node_alloc": 0.1617,
+   "residents_covered": 300112
+  },
+  "declared|high|Tue09": {
+   "pop_share": 0.8363,
+   "node_alloc": 0.8598,
+   "residents_covered": 1656755
+  },
+  "declared|high|Tue12": {
+   "pop_share": 0.8352,
+   "node_alloc": 0.8591,
+   "residents_covered": 1654720
+  },
+  "declared|high|Tue18": {
+   "pop_share": 0.8258,
+   "node_alloc": 0.8501,
+   "residents_covered": 1636086
+  },
+  "declared|high|Sun03": {
+   "pop_share": 0.1474,
+   "node_alloc": 0.1577,
+   "residents_covered": 292008
+  },
+  "declared|high|Sun09": {
+   "pop_share": 0.3442,
+   "node_alloc": 0.3634,
+   "residents_covered": 681911
+  },
+  "declared|high|Sun12": {
+   "pop_share": 0.3447,
+   "node_alloc": 0.3638,
+   "residents_covered": 682859
+  },
+  "declared|high|Sun18": {
+   "pop_share": 0.3398,
+   "node_alloc": 0.3588,
+   "residents_covered": 673115
+  },
+  "strict|central|Tue03": {
+   "pop_share": 0.1111,
+   "node_alloc": 0.1194,
+   "residents_covered": 220033
+  },
+  "strict|central|Tue09": {
+   "pop_share": 0.7664,
+   "node_alloc": 0.7947,
+   "residents_covered": 1518384
+  },
+  "strict|central|Tue12": {
+   "pop_share": 0.765,
+   "node_alloc": 0.7938,
+   "residents_covered": 1515647
+  },
+  "strict|central|Tue18": {
+   "pop_share": 0.1437,
+   "node_alloc": 0.1528,
+   "residents_covered": 284738
+  },
+  "strict|central|Sun03": {
+   "pop_share": 0.1067,
+   "node_alloc": 0.1153,
+   "residents_covered": 211323
+  },
+  "strict|central|Sun09": {
+   "pop_share": 0.2452,
+   "node_alloc": 0.2617,
+   "residents_covered": 485838
+  },
+  "strict|central|Sun12": {
+   "pop_share": 0.2445,
+   "node_alloc": 0.2607,
+   "residents_covered": 484367
+  },
+  "strict|central|Sun18": {
+   "pop_share": 0.1121,
+   "node_alloc": 0.1205,
+   "residents_covered": 222111
+  },
+  "strict|low|Tue03": {
+   "pop_share": 0.1111,
+   "node_alloc": 0.1194,
+   "residents_covered": 220033
+  },
+  "strict|low|Tue09": {
+   "pop_share": 0.1892,
+   "node_alloc": 0.2011,
+   "residents_covered": 374736
+  },
+  "strict|low|Tue12": {
+   "pop_share": 0.765,
+   "node_alloc": 0.7938,
+   "residents_covered": 1515647
+  },
+  "strict|low|Tue18": {
+   "pop_share": 0.1437,
+   "node_alloc": 0.1528,
+   "residents_covered": 284738
+  },
+  "strict|low|Sun03": {
+   "pop_share": 0.1067,
+   "node_alloc": 0.1153,
+   "residents_covered": 211323
+  },
+  "strict|low|Sun09": {
+   "pop_share": 0.1171,
+   "node_alloc": 0.1256,
+   "residents_covered": 231930
+  },
+  "strict|low|Sun12": {
+   "pop_share": 0.2445,
+   "node_alloc": 0.2607,
+   "residents_covered": 484367
+  },
+  "strict|low|Sun18": {
+   "pop_share": 0.1121,
+   "node_alloc": 0.1205,
+   "residents_covered": 222111
+  },
+  "strict|high|Tue03": {
+   "pop_share": 0.1111,
+   "node_alloc": 0.1194,
+   "residents_covered": 220033
+  },
+  "strict|high|Tue09": {
+   "pop_share": 0.7664,
+   "node_alloc": 0.7947,
+   "residents_covered": 1518384
+  },
+  "strict|high|Tue12": {
+   "pop_share": 0.765,
+   "node_alloc": 0.7938,
+   "residents_covered": 1515647
+  },
+  "strict|high|Tue18": {
+   "pop_share": 0.7565,
+   "node_alloc": 0.7852,
+   "residents_covered": 1498720
+  },
+  "strict|high|Sun03": {
+   "pop_share": 0.1067,
+   "node_alloc": 0.1153,
+   "residents_covered": 211323
+  },
+  "strict|high|Sun09": {
+   "pop_share": 0.2452,
+   "node_alloc": 0.2617,
+   "residents_covered": 485838
+  },
+  "strict|high|Sun12": {
+   "pop_share": 0.2445,
+   "node_alloc": 0.2607,
+   "residents_covered": 484367
+  },
+  "strict|high|Sun18": {
+   "pop_share": 0.2421,
+   "node_alloc": 0.2585,
+   "residents_covered": 479578
+  },
+  "strict_unconditional|central|Tue03": {
+   "pop_share": 0.1036,
+   "node_alloc": 0.1108,
+   "residents_covered": 205240
+  },
+  "strict_unconditional|central|Tue09": {
+   "pop_share": 0.7619,
+   "node_alloc": 0.7903,
+   "residents_covered": 1509479
+  },
+  "strict_unconditional|central|Tue12": {
+   "pop_share": 0.7605,
+   "node_alloc": 0.7894,
+   "residents_covered": 1506742
+  },
+  "strict_unconditional|central|Tue18": {
+   "pop_share": 0.1358,
+   "node_alloc": 0.1437,
+   "residents_covered": 269049
+  },
+  "strict_unconditional|central|Sun03": {
+   "pop_share": 0.0992,
+   "node_alloc": 0.1067,
+   "residents_covered": 196530
+  },
+  "strict_unconditional|central|Sun09": {
+   "pop_share": 0.2376,
+   "node_alloc": 0.2532,
+   "residents_covered": 470665
+  },
+  "strict_unconditional|central|Sun12": {
+   "pop_share": 0.2368,
+   "node_alloc": 0.2522,
+   "residents_covered": 469121
+  },
+  "strict_unconditional|central|Sun18": {
+   "pop_share": 0.1047,
+   "node_alloc": 0.112,
+   "residents_covered": 207516
+  },
+  "strict_unconditional|low|Tue03": {
+   "pop_share": 0.1036,
+   "node_alloc": 0.1108,
+   "residents_covered": 205240
+  },
+  "strict_unconditional|low|Tue09": {
+   "pop_share": 0.1799,
+   "node_alloc": 0.1909,
+   "residents_covered": 356313
+  },
+  "strict_unconditional|low|Tue12": {
+   "pop_share": 0.7605,
+   "node_alloc": 0.7894,
+   "residents_covered": 1506742
+  },
+  "strict_unconditional|low|Tue18": {
+   "pop_share": 0.1358,
+   "node_alloc": 0.1437,
+   "residents_covered": 269049
+  },
+  "strict_unconditional|low|Sun03": {
+   "pop_share": 0.0992,
+   "node_alloc": 0.1067,
+   "residents_covered": 196530
+  },
+  "strict_unconditional|low|Sun09": {
+   "pop_share": 0.1098,
+   "node_alloc": 0.1173,
+   "residents_covered": 217463
+  },
+  "strict_unconditional|low|Sun12": {
+   "pop_share": 0.2368,
+   "node_alloc": 0.2522,
+   "residents_covered": 469121
+  },
+  "strict_unconditional|low|Sun18": {
+   "pop_share": 0.1047,
+   "node_alloc": 0.112,
+   "residents_covered": 207516
+  },
+  "strict_unconditional|high|Tue03": {
+   "pop_share": 0.1036,
+   "node_alloc": 0.1108,
+   "residents_covered": 205240
+  },
+  "strict_unconditional|high|Tue09": {
+   "pop_share": 0.7619,
+   "node_alloc": 0.7903,
+   "residents_covered": 1509479
+  },
+  "strict_unconditional|high|Tue12": {
+   "pop_share": 0.7605,
+   "node_alloc": 0.7894,
+   "residents_covered": 1506742
+  },
+  "strict_unconditional|high|Tue18": {
+   "pop_share": 0.7527,
+   "node_alloc": 0.7815,
+   "residents_covered": 1491110
+  },
+  "strict_unconditional|high|Sun03": {
+   "pop_share": 0.0992,
+   "node_alloc": 0.1067,
+   "residents_covered": 196530
+  },
+  "strict_unconditional|high|Sun09": {
+   "pop_share": 0.2376,
+   "node_alloc": 0.2532,
+   "residents_covered": 470665
+  },
+  "strict_unconditional|high|Sun12": {
+   "pop_share": 0.2368,
+   "node_alloc": 0.2522,
+   "residents_covered": 469121
+  },
+  "strict_unconditional|high|Sun18": {
+   "pop_share": 0.2343,
+   "node_alloc": 0.2499,
+   "residents_covered": 464233
+  }
+ },
+ "thresholds_tue03": {
+  "declared|100m": 0.0386,
+  "declared|200m": 0.1515,
+  "declared|300m": 0.3231,
+  "declared|400m": 0.5168,
+  "strict|100m": 0.0276,
+  "strict|200m": 0.1111,
+  "strict|300m": 0.2466,
+  "strict|400m": 0.4101,
+  "strict_unconditional|100m": 0.0257,
+  "strict_unconditional|200m": 0.1036,
+  "strict_unconditional|300m": 0.2302,
+  "strict_unconditional|400m": 0.3846
+ }
+}

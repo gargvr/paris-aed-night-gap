@@ -1,0 +1,336 @@
+text,c_disp_j,n,basis,hours_at_h30
+L au V 9h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",21,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 8h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",16,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 9h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",13,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 8h/20h,"{lundi,mardi,mercredi,jeudi,vendredi}",12,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+8h-12h 13h-16h,"{lundi,mardi,mercredi,jeudi,vendredi}",9,parsed_text,Mon 8-12h 13-16h | Tue 8-12h 13-16h | Wed 8-12h 13-16h | Thu 8-12h 13-16h | Fri 8-12h 13-16h
+L au V 8h30/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",8,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au V 8h/12h 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",8,parsed_text,Mon 8-12h 14-17h | Tue 8-12h 14-17h | Wed 8-12h 14-17h | Thu 8-12h 14-17h | Fri 8-12h 14-17h
+L au V 8h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",7,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au V 9h/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",7,parsed_text,Mon 9-19h | Tue 9-19h | Wed 9-19h | Thu 9-19h | Fri 9-19h
+L au V 8h/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",7,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 8h/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",6,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+Lundi au vendredi 7h 19h,"{lundi,mardi,mercredi,jeudi,vendredi}",6,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 8h30/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",5,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 7h30/19h S 8h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",5,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h | Sat 8-18h
+L au J 8h30/17h30 V 8h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",5,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-16h
+L au V 8h30/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",4,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 9h-12h/14h-19h et S 9h-12h/14h-18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",4,parsed_text,Mon 9-12h 14-19h | Tue 9-12h 14-19h | Wed 9-12h 14-19h | Thu 9-12h 14-19h | Fri 9-12h 14-19h | Sat 9-12h 14-18h
+"L , Ma , Me , J 8h30/12h30 13h30/17h30 V 8h30/12h30 13h30/16h30","{lundi,mardi,mercredi,jeudi,vendredi}",4,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L au V 7h/19h30,"{lundi,mardi,mercredi,jeudi,vendredi}",4,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 7h/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",4,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 8h-20h,"{lundi,mardi,mercredi,jeudi,vendredi}",4,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+L au V 7h30/19h30,"{lundi,mardi,mercredi,jeudi,vendredi}",4,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+Horaires : 10:00 - 20:00,{7j/7},3,parsed_text,Mon 10-20h | Tue 10-20h | Wed 10-20h | Thu 10-20h | Fri 10-20h | Sat 10-20h | Sun 10-20h
+7j/7 20h/8h,{7j/7},3,parsed_text,Mon 0-8h 20-24h | Tue 0-8h 20-24h | Wed 0-8h 20-24h | Thu 0-8h 20-24h | Fri 0-8h 20-24h | Sat 0-8h 20-24h | Sun 0-8h 20-24h
+7j/7 9h/18h,{7j/7},3,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h | Sun 9-18h
+L au V 7h-21h,"{lundi,mardi,mercredi,jeudi,vendredi}",3,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h
+L au V 8h-18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",3,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 7h30/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",3,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 9h-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",3,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au S 8h/22h30 D 8h/20h,{7j/7},3,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h | Sat 8-22h | Sun 8-20h
+Gare ouverte de 4h à 1h30,{7j/7},3,parsed_text,Mon 0-1h 4-24h | Tue 0-1h 4-24h | Wed 0-1h 4-24h | Thu 0-1h 4-24h | Fri 0-1h 4-24h | Sat 0-1h 4-24h | Sun 0-1h 4-24h
+L au V 8h30-18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",3,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+DAE accessible uniquement pour le personnel L au V 8h/19h,"{lundi,mardi,mercredi,jeudi,vendredi,événements}",3,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 8h30/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",3,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au V 9h/12h 13h30/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-12h 13-16h | Tue 9-12h 13-16h | Wed 9-12h 13-16h | Thu 9-12h 13-16h | Fri 9-12h 13-16h
+L au V 9h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-16h | Tue 9-16h | Wed 9-16h | Thu 9-16h | Fri 9-16h
+L au V 9h/12h 13h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-12h 13-16h | Tue 9-12h 13-16h | Wed 9-12h 13-16h | Thu 9-12h 13-16h | Fri 9-12h 13-16h
+L au V 9h/12h 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-12h 14-17h | Tue 9-12h 14-17h | Wed 9-12h 14-17h | Thu 9-12h 14-17h | Fri 9-12h 14-17h
+L au V 9h/12h 14h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-12h 14-18h | Tue 9-12h 14-18h | Wed 9-12h 14-18h | Thu 9-12h 14-18h | Fri 9-12h 14-18h
+L au V 9h30-17h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 9h30/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L 7h30/8h30 12h/13h30 Ma 12h/13h30 17h/20h Me 7h/8h30 12h/18h J 12h/13h30 17h/22h30 V 12h/13h30 17h/20h S 10h/13h 14h/19h D 8h/13h,{7j/7},2,parsed_text,Mon 7-8h 12-13h | Tue 12-13h 17-20h | Wed 7-8h 12-18h | Thu 12-13h 17-22h | Fri 12-13h 17-20h | Sat 10-13h 14-19h | Sun 8-13h
+L au V 9h-17h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 6h/23h S 6h/18h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",2,parsed_text,Mon 6-23h | Tue 6-23h | Wed 6-23h | Thu 6-23h | Fri 6-23h | Sat 6-18h
+L au S 8h/19h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",2,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au V 8h30/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au S 8h30-19h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",2,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au V 8h00/18h30 sauf période de vacances scolaires. (Interphone à l'entrée),"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 7h-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 7h/15h30,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-15h | Tue 7-15h | Wed 7-15h | Thu 7-15h | Fri 7-15h
+L au V 7h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-17h | Tue 7-17h | Wed 7-17h | Thu 7-17h | Fri 7-17h
+L au V 8h/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 7h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 7h/21h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h
+L au V 8h/12h 13h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-12h 13-16h | Tue 8-12h 13-16h | Wed 8-12h 13-16h | Thu 8-12h 13-16h | Fri 8-12h 13-16h
+L au V 8h-19h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 8h-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 7h30/20h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-20h | Tue 7-20h | Wed 7-20h | Thu 7-20h | Fri 7-20h
+L au V 7h45/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-16h | Tue 8-16h | Wed 8-16h | Thu 8-16h | Fri 8-16h
+L au V 9h30/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 7h30/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 8h à 18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+Mo-Fr 09:00-18:00,"{lundi,mardi,mercredi,jeudi,vendredi}",2,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+Ma au S 10h/12h 13h15/18h,"{mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Tue 10-12h 13-18h | Wed 10-12h 13-18h | Thu 10-12h 13-18h | Fri 10-12h 13-18h | Sat 10-12h 13-18h
+Ma au J 9h/18h,"{mardi,mercredi,jeudi}",1,parsed_text,Tue 9-18h | Wed 9-18h | Thu 9-18h
+Ma au D 9h/19h30,"{mardi,mercredi,jeudi,vendredi,samedi,dimanche,""jours fériés""}",1,parsed_text,Tue 9-19h | Wed 9-19h | Thu 9-19h | Fri 9-19h | Sat 9-19h | Sun 9-19h
+L au V 8h/19h,"{lundi,mardi,mercredi,jeudi,vendredi,événements}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+Ma au D 12h/00h + selon évènements,"{mardi,mercredi,jeudi,vendredi,samedi,dimanche,""jours fériés"",événements}",1,parsed_text,Tue 12-24h | Wed 12-24h | Thu 12-24h | Fri 12-24h | Sat 12-24h | Sun 12-24h
+Ma Me V 9h30/12h30 13h30/17h30,"{mardi,mercredi,vendredi}",1,parsed_text,Tue 9-12h 13-17h | Wed 9-12h 13-17h | Fri 9-12h 13-17h
+L au V 8h/19h S 8h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-18h
+L au V 8h/19h en dehors sur appel du gardien,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+Ma Me J V S D 8h-19h,"{mardi,mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h | Sun 8-19h
+Ma Me J V 9h/17h,"{mardi,mercredi,jeudi,vendredi}",1,parsed_text,Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 8h/21h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-21h | Tue 8-21h | Wed 8-21h | Thu 8-21h | Fri 8-21h
+L au V 8h/22h  S D 8h/20h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h | Sat 8-20h | Sun 8-20h
+L au V 8h/22h30 + S D selon évènements,"{7j/7,événements}",1,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h
+L au V 8h/23h S 8h/18h D 10h/18h,{7j/7},1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h | Sat 8-18h | Sun 10-18h
+Ma J V 9h/17h,"{mardi,jeudi,vendredi}",1,parsed_text,Tue 9-17h | Thu 9-17h | Fri 9-17h
+L au V 8h/23h S 8h/19h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h | Sat 8-19h
+L au V 8h00/18h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 8h00/18h30 sauf période de vacances scolaires  Interphone à l'entrée,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+Ma / V 12h/19h Me / S 10h/19h,"{mardi,mercredi,vendredi,samedi}",1,parsed_text,Tue 12-19h | Wed 10-19h | Fri 12-19h | Sat 10-19h
+L au V 8h15/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 8h30 - 17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au V 8h30-12h30 / 13h30-17h30,{événements},1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-17h
+L au V 8h30-17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au V 8h30-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+M au V 13h3/18h30 S D 13h30/19h,"{mardi,mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Tue 13-18h | Wed 13-18h | Thu 13-18h | Fri 13-18h | Sat 13-19h | Sun 13-19h
+L au V 8h30-22h D 8h30-12h30,"{lundi,mardi,mercredi,jeudi,vendredi,dimanche}",1,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h | Sun 8-12h
+L au V 8h30/12h 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 14-17h | Tue 8-12h 14-17h | Wed 8-12h 14-17h | Thu 8-12h 14-17h | Fri 8-12h 14-17h
+L au V 8h/18h45,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 8h/18h S 8h/12h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h | Sat 8-12h
+L au V 9h30/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+bâtiment cour - ouvert tous les jours de 9h à 22h y compris les jours fériés,{7j/7},1,parsed_text,Mon 9-22h | Tue 9-22h | Wed 9-22h | Thu 9-22h | Fri 9-22h | Sat 9-22h | Sun 9-22h
+L au V 8h-12h30 / 13h30-19h30 S 9h/12h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-12h 13-19h | Tue 8-12h 13-19h | Wed 8-12h 13-19h | Thu 8-12h 13-19h | Fri 8-12h 13-19h | Sat 9-12h
+L au V 8h-16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-16h | Tue 8-16h | Wed 8-16h | Thu 8-16h | Fri 8-16h
+L au V 8h-17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+ouvert de 7h30 à 19h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h | Sat 7-19h
+"ouvert de 5h à minuit, accès porte sonnette Radio Notre Dame","{lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Mon 5-24h | Tue 5-24h | Wed 5-24h | Thu 5-24h | Fri 5-24h | Sat 5-24h | Sun 5-24h
+mo-sa 10:00-20:00 su 11:00-20:00,{7j/7},1,parsed_text,Mon 10-20h | Tue 10-20h | Wed 10-20h | Thu 10-20h | Fri 10-20h | Sat 10-20h | Sun 11-20h
+L au V 8h-18-30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+mo-sa 08:30-20:00 su 10:00-20:00,{7j/7},1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 8-20h | Sun 10-20h
+mo-sa 08:30-20:00 su 09:00-12:45,{7j/7},1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 8-20h | Sun 9-13h
+"heures de nuit, 1h-6h ,disponible en passant par l'interphone de l'hôtel , la reception presente 24h/24 deverouille la porte",{7j/7},1,parsed_text,Mon 0-24h | Tue 0-24h | Wed 0-24h | Thu 0-24h | Fri 0-24h | Sat 0-24h | Sun 0-24h
+L au V 8h-18h + évènements,"{lundi,mardi,mercredi,jeudi,vendredi,événements}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+de 8h30 à 20h,{7j/7},1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 8-20h | Sun 8-20h
+L au V 8h-19h S 9h-18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 9-18h
+Ma au V 18h/23h S 14h/23h,"{mardi,mercredi,jeudi,vendredi,samedi,dimanche,""jours fériés""}",1,parsed_text,Tue 18-23h | Wed 18-23h | Thu 18-23h | Fri 18-23h | Sat 14-23h
+accès de10h30 à 11h45 et de 18h30 à 19h45. Appareil à droite de l'entrée de l'église,{dimanche},1,parsed_text,Sun 10-12h 18-20h
+L au V 8h-23h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h
+L au V 8h/ 19h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 8h/ 21h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-21h | Tue 8-21h | Wed 8-21h | Thu 8-21h | Fri 8-21h
+Sonner à la porte d'entrée pendant les heures d'ouvertures (8h-19h),"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+Salle public ouvert à partir de 11h,"{7j/7,""jours fériés""}",1,assumed_business,Mon 0-8h 9-18h 20-24h | Tue 0-8h 9-18h 20-24h | Wed 0-8h 9-18h 20-24h | Thu 0-8h 9-18h 20-24h | Fri 0-8h 9-18h 20-24h | Sat 0-8h 9-18h 20-24h | Sun 0-8h 9-18h 20-24h
+L au V 8h/12h 14h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 14-18h | Tue 8-12h 14-18h | Wed 8-12h 14-18h | Thu 8-12h 14-18h | Fri 8-12h 14-18h
+"Salle d'accueil du public : libre accès le lundi, mardi, Mercredi, Jeudi de 09h00 à 13h15	puis en vidéo-portier de 13h15-17h00, le Vendredi de 09h00 à 12h00","{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-12h
+Ouvert toute l'année de 9h à 23h45.,{7j/7},1,parsed_text,Mon 9-24h | Tue 9-24h | Wed 9-24h | Thu 9-24h | Fri 9-24h | Sat 9-24h | Sun 9-24h
+Ouvert de 9H à 12h30 et de 13h30 à 18h (vendredi 17h),"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-18h | Tue 9-12h 13-18h | Wed 9-12h 13-18h | Thu 9-12h 13-18h | Fri 9-12h 13-17h
+Me et S 6h/16h,"{mardi,samedi}",1,parsed_text,Wed 6-16h | Sat 6-16h
+Ma au V 9h/18h S 9h/17h,"{mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-17h
+L au V 8h30/13h30 14h30/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-13h 14-17h | Tue 8-13h 14-17h | Wed 8-13h 14-17h | Thu 8-13h 14-17h | Fri 8-13h 14-17h
+L au V 9h30/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 8h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-16h | Tue 8-16h | Wed 8-16h | Thu 8-16h | Fri 8-16h
+L au V de 8h30/19H,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 9h/12h 14h/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-17h | Tue 9-12h 14-17h | Wed 9-12h 14-17h | Thu 9-12h 14-17h | Fri 9-12h 14-17h
+L au d 10h-21h,"{mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Mon 10-21h | Tue 10-21h | Wed 10-21h | Thu 10-21h | Fri 10-21h | Sat 10-21h | Sun 10-21h
+L au V 9h/12h 14h/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-19h | Tue 9-12h 14-19h | Wed 9-12h 14-19h | Thu 9-12h 14-19h | Fri 9-12h 14-19h
+L au V 9h/12h 15h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 15-16h | Tue 9-12h 15-16h | Wed 9-12h 15-16h | Thu 9-12h 15-16h | Fri 9-12h 15-16h
+L au V 9h/12h30 13h30/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-18h | Tue 9-12h 13-18h | Wed 9-12h 13-18h | Thu 9-12h 13-18h | Fri 9-12h 13-18h
+L au V 9h/12h30 14h/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-17h | Tue 9-12h 14-17h | Wed 9-12h 14-17h | Thu 9-12h 14-17h | Fri 9-12h 14-17h
+L au V 9h/12h30 14h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-18h | Tue 9-12h 14-18h | Wed 9-12h 14-18h | Thu 9-12h 14-18h | Fri 9-12h 14-18h
+L au V 9h/12h30 14h/19h S 9h/12h30 14h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 9-12h 14-19h | Tue 9-12h 14-19h | Wed 9-12h 14-19h | Thu 9-12h 14-19h | Fri 9-12h 14-19h | Sat 9-12h 14-18h
+L au V 9h/12h45 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-13h 14-17h | Tue 9-13h 14-17h | Wed 9-13h 14-17h | Thu 9-13h 14-17h | Fri 9-13h 14-17h
+L au V 9h/13h 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-13h 14-17h | Tue 9-13h 14-17h | Wed 9-13h 14-17h | Thu 9-13h 14-17h | Fri 9-13h 14-17h
+L au V 9h/13h 14h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-13h 14-18h | Tue 9-13h 14-18h | Wed 9-13h 14-18h | Thu 9-13h 14-18h | Fri 9-13h 14-18h
+L au V de 9h-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 9h/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 8h-12h / 14h16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 14-16h | Tue 8-12h 14-16h | Wed 8-12h 14-16h | Thu 8-12h 14-16h | Fri 8-12h 14-16h
+L au V 9h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,""jours fériés"",événements}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 9h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V de 8h/20h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+L au V 9h/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V de 8h-20h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+L au V 9h/20h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-20h | Tue 9-20h | Wed 9-20h | Thu 9-20h | Fri 9-20h
+L au V 9h15/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V de 8h à 20h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+L au V 9h30-17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 9h30/12h00 14h00 /19h00,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 9-12h 14-19h | Tue 9-12h 14-19h | Wed 9-12h 14-19h | Thu 9-12h 14-19h | Fri 9-12h 14-19h
+L au V de 6h30/20h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 6-20h | Tue 6-20h | Wed 6-20h | Thu 6-20h | Fri 6-20h
+L au V 9h30/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-19h | Tue 9-19h | Wed 9-19h | Thu 9-19h | Fri 9-19h
+L au j 8h30 à 12h30 puis 13h30 à 17h30 sauf V 16h30 code accès: 3078B,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L au V 9h/12h 14h/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-16h | Tue 9-12h 14-16h | Wed 9-12h 14-16h | Thu 9-12h 14-16h | Fri 9-12h 14-16h
+Lundi au vendredi 10h - 19h et le samedi 10h - 18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 10-19h | Tue 10-19h | Wed 10-19h | Thu 10-19h | Fri 10-19h | Sat 10-18h
+L au V 8h45-16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-16h | Tue 9-16h | Wed 9-16h | Thu 9-16h | Fri 9-16h
+Lundi au samedi de 8h à 23h et dimanche de 10h à 17h,{7j/7},1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h | Sat 8-23h | Sun 10-17h
+"Lundi : 10h00 - 12h00 ; Mardi : 15h00 - 17h00 ; Vendredi : 18h00 - 20h00 ; Accès parfois possible en dehors de ces heures, mais rien de fixe.","{lundi,mardi,vendredi}",1,parsed_text,Mon 10-12h | Tue 15-17h | Fri 18-20h
+L au V 8h30/18h hors vacances scolaire,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+"Le DAE sera disponible les jours ouvrés, du lundi au vendredi, de 9 h 00 à 17 h 30.","{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+Le DAE se trouve au poste d'accueil de 9h30 à 17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+Lau V de 9h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-16h | Tue 9-16h | Wed 9-16h | Thu 9-16h | Fri 9-16h
+L au V 8h30/19h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+L au V 8h30/19h30 S 9h30/19h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 9-19h
+"L, mer,J et V  8h30 à 17h45 Mardi 8h30 à 12h et Sam 10h à 17h45","{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-18h | Tue 8-12h | Wed 8-18h | Thu 8-18h | Fri 8-18h | Sat 10-18h
+L au V 8h30/20h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+"L, Ma, J , V 8h/18h","{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Thu 8-18h | Fri 8-18h
+L au V 8h30/21h00 S 8h00/00h00 D 8h30/20h00,{7j/7},1,parsed_text,Mon 8-21h | Tue 8-21h | Wed 8-21h | Thu 8-21h | Fri 8-21h | Sat 8-24h | Sun 8-20h
+L au V 9h /17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au V 9h/12h 14h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-16h | Tue 9-12h 14-16h | Wed 9-12h 14-16h | Thu 9-12h 14-16h | Fri 9-12h 14-16h
+L au V 9h 18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 9h- 12h /14h -17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-17h | Tue 9-12h 14-17h | Wed 9-12h 14-17h | Thu 9-12h 14-17h | Fri 9-12h 14-17h
+L au V 9h-12h / 13h30-16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-16h | Tue 9-12h 13-16h | Wed 9-12h 13-16h | Thu 9-12h 13-16h | Fri 9-12h 13-16h
+L au V 9h-12h / 14h-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 14-18h | Tue 9-12h 14-18h | Wed 9-12h 14-18h | Thu 9-12h 14-18h | Fri 9-12h 14-18h
+L à v 7h à 21h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h
+L à J 9h à 17h et le V 14h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-14h
+L au V 9h-17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au vendredi 9h-18h,"{lundi,mardi,mercredi,jeudi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au V 9h-19h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-19h | Tue 9-19h | Wed 9-19h | Thu 9-19h | Fri 9-19h
+L au V 9h/12h 13h/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-16h | Tue 9-12h 13-16h | Wed 9-12h 13-16h | Thu 9-12h 13-16h | Fri 9-12h 13-16h
+L au v 9h à 18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+L au v 8h-20h S 9h-13h D 10h-12h,{7j/7},1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 9-13h | Sun 10-12h
+L au V 8h30/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-16h | Tue 8-16h | Wed 8-16h | Thu 8-16h | Fri 8-16h
+07h15 à 11h45 et 13h à 18h l au j puis 17h le v et le s,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-12h 13-18h | Tue 7-12h 13-18h | Wed 7-12h 13-18h | Thu 7-12h 13-18h | Fri 7-12h 13-17h | Sat 7-12h 13-17h
+L au V 8h 18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+Horaires d'ouverture 9h-12h et 14h-17h,"{lundi,vendredi,mercredi,mardi,jeudi}",1,parsed_text,Mon 9-12h 14-17h | Tue 9-12h 14-17h | Wed 9-12h 14-17h | Thu 9-12h 14-17h | Fri 9-12h 14-17h
+L 14h/18h Ma 9h-12h/14h-19h J 9h-12h/14h-19h V 9h-12h/14h-18h S 9h-14h D 10h-18h,{7j/7},1,parsed_text,Mon 14-18h | Tue 9-12h 14-19h | Thu 9-12h 14-19h | Fri 9-12h 14-18h | Sat 9-14h | Sun 10-18h
+L 12h30/22h Ma J V 9h/22h Me 9h/21h30 S 9h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 12-22h | Tue 9-22h | Wed 9-21h | Thu 9-22h | Fri 9-22h | Sat 9-18h
+"L , Ma , Me , J 8h30/12h30 13h30/17h30 V 8h/30/12h30 13h30/16h30","{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L  Ma  Me  J 8h30/12h30 13h30/17h30 V 8h30/12h30 13h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L  Ma  J  V  8h/17h30,"{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Thu 8-17h | Fri 8-17h
+Il s'agit d'un restaurant ouvert du mercredi au dimanche  de 7h  à 2h du matin. L'appareil se trouve à droite dés l'entrée dans l'établissement.,"{vendredi,samedi,dimanche,""jours fériés"",jeudi,mercredi}",1,parsed_text,Mon 0-2h | Wed 7-24h | Thu 0-2h 7-24h | Fri 0-2h 7-24h | Sat 0-2h 7-24h | Sun 0-2h 7-24h
+"Horaires ouverture des bureaux : 09h 13h - 14h 18h / Interphone ARIHM, puis 1er étage droite. le DAE est localisé au niveau de la porte de sortie de secours, près de l'imprimante / photocopieur","{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-13h 14-18h | Tue 9-13h 14-18h | Wed 9-13h 14-18h | Thu 9-13h 14-18h | Fri 9-13h 14-18h
+Horaires d'accessibilité de 6h30 à 23h du lundi au vendredi et de 8h à 19h du samedi au dimanche.,{7j/7},1,parsed_text,Mon 6-23h | Tue 6-23h | Wed 6-23h | Thu 6-23h | Fri 6-23h | Sat 8-19h | Sun 8-19h
+L au J  9h30/18h V 9h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-17h
+Heures d'ouvertures : du lundi au jeudi de 8h à 18h et le vendredi de 8h à 13h,"{lundi,mardi,jeudi,mercredi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-13h
+Heures d'ouverture : 9h00 / 18h00,"{mardi,mercredi,jeudi,lundi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+"Hall 3, Gare ouverte de 4h à 1h30",{7j/7},1,parsed_text,Mon 0-1h 4-24h | Tue 0-1h 4-24h | Wed 0-1h 4-24h | Thu 0-1h 4-24h | Fri 0-1h 4-24h | Sat 0-1h 4-24h | Sun 0-1h 4-24h
+"HORAIRE DE 8H00 0 19H00, RDC a cote de la cuisine","{lundi,vendredi,mardi,mercredi,jeudi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+Gare accessible de 4h30 à 1h,{7j/7},1,parsed_text,Mon 0-1h 4-24h | Tue 0-1h 4-24h | Wed 0-1h 4-24h | Thu 0-1h 4-24h | Fri 0-1h 4-24h | Sat 0-1h 4-24h | Sun 0-1h 4-24h
+Du L au V de 9h30 à 17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+Du L au V 9h/19h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-19h | Tue 9-19h | Wed 9-19h | Thu 9-19h | Fri 9-19h
+L J 10h-12h/13h-15h,"{lundi,jeudi}",1,parsed_text,Mon 10-12h 13-15h | Thu 10-12h 13-15h
+L Ma J 9h/18h Me 14h/20h30 V 9h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 14-20h | Thu 9-18h | Fri 9-17h
+L Ma J V 7h-14h30 Me15h-20h  S 9h-13h / 15h30-19h30 D 9h-13h,{7j/7},1,parsed_text,Mon 7-14h | Tue 7-14h | Wed 15-20h | Thu 7-14h | Fri 7-14h | Sat 9-13h 15-19h | Sun 9-13h
+L Ma J V 7h30/12h15 13h30/18h,"{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 7-12h 13-18h | Tue 7-12h 13-18h | Thu 7-12h 13-18h | Fri 7-12h 13-18h
+L au D 7h /23h,{7j/7},1,parsed_text,Mon 7-23h | Tue 7-23h | Wed 7-23h | Thu 7-23h | Fri 7-23h | Sat 7-23h | Sun 7-23h
+L au D 7H30/21H30 + selon évènements,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche,événements}",1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h | Sat 7-21h | Sun 7-21h
+L au  V 7h-18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L V  8h/18h,"{lundi,vendredi}",1,parsed_text,Mon 8-18h | Fri 8-18h
+L S 8h/18h,"{lundi,samedi}",1,parsed_text,Mon 8-18h | Sat 8-18h
+L Me J V S 10h/15h 16h/20h Ma 14h/20h D 8h/13h 14h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 10-15h 16-20h | Tue 14-20h | Wed 10-15h 16-20h | Thu 10-15h 16-20h | Fri 10-15h 16-20h | Sat 10-15h 16-20h | Sun 8-13h 14-18h
+L Ma Me V 9h/12h30 J 9h/12h + selon événements,{7j/7},1,parsed_text,Mon 9-12h | Tue 9-12h | Wed 9-12h | Thu 9-12h | Fri 9-12h
+L Ma Me V 8h30-18h J 8h30-19h S 8h30-12h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-19h | Fri 8-18h | Sat 8-12h
+L Ma Me J 8h30/12h30 13h30/17h30 V 8h30/12h30 13h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L Ma J V 8h30/18h Mer 8h30/13h hors vacances scolaires,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-13h | Thu 8-18h | Fri 8-18h
+L Ma J V 8h30/11h45 13h45/16h30,"{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 14-16h | Tue 8-12h 14-16h | Thu 8-12h 14-16h | Fri 8-12h 14-16h
+L Ma J V 8h/18h,"{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Thu 8-18h | Fri 8-18h
+L Ma J V 8h/12h00 13h30/17h45,"{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-18h | Tue 8-12h 13-18h | Thu 8-12h 13-18h | Fri 8-12h 13-18h
+L Ma J V 8h-17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Thu 8-17h | Fri 8-17h
+L Ma J V 7h30/18h30 hors vacances scolaires,"{lundi,mardi,jeudi,vendredi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Thu 7-18h | Fri 7-18h
+Du L au V 9h-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+Du L V 9h30-17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+Cinéma ouvert au public tous les jours entre 13h et 00h.,{7j/7},1,parsed_text,Mon 13-24h | Tue 13-24h | Wed 13-24h | Thu 13-24h | Fri 13-24h | Sat 13-24h | Sun 13-24h
+7j/7 8h/16h,{7j/7},1,parsed_text,Mon 8-16h | Tue 8-16h | Wed 8-16h | Thu 8-16h | Fri 8-16h | Sat 8-16h | Sun 8-16h
+7j/7 8-23h,{7j/7},1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h | Sat 8-23h | Sun 8-23h
+7j/7 7h/21h,{7j/7},1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h | Sat 7-21h | Sun 7-21h
+7j/7 24h/24 selon évènements,"{7j/7,""jours fériés"",événements}",1,parsed_text,Mon 0-24h | Tue 0-24h | Wed 0-24h | Thu 0-24h | Fri 0-24h | Sat 0-24h | Sun 0-24h
+7j/7 24h/24,{7j/7},1,parsed_text,Mon 0-24h | Tue 0-24h | Wed 0-24h | Thu 0-24h | Fri 0-24h | Sat 0-24h | Sun 0-24h
+7j/7 11h/20h,{7j/7},1,parsed_text,Mon 11-20h | Tue 11-20h | Wed 11-20h | Thu 11-20h | Fri 11-20h | Sat 11-20h | Sun 11-20h
+7j/7  7h/20h,{7j/7},1,parsed_text,Mon 7-20h | Tue 7-20h | Wed 7-20h | Thu 7-20h | Fri 7-20h | Sat 7-20h | Sun 7-20h
+7j /7 de 8h-12h/14h-19h,{7j/7},1,parsed_text,Mon 8-12h 14-19h | Tue 8-12h 14-19h | Wed 8-12h 14-19h | Thu 8-12h 14-19h | Fri 8-12h 14-19h | Sat 8-12h 14-19h | Sun 8-12h 14-19h
+7h45 à 16h09 du l au v,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-16h | Tue 8-16h | Wed 8-16h | Thu 8-16h | Fri 8-16h
+7J/7 9h/18h,{7j/7},1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h | Sun 9-18h
+7J/7 8h /20h,{7j/7},1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 8-20h | Sun 8-20h
+7J/7 7h45 à 20h,{7j/7},1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 8-20h | Sun 8-20h
+7J/7 7h à 23h,{7j/7},1,parsed_text,Mon 7-23h | Tue 7-23h | Wed 7-23h | Thu 7-23h | Fri 7-23h | Sat 7-23h | Sun 7-23h
+7J/7 18h a 1h,{7j/7},1,parsed_text,Mon 0-1h 18-24h | Tue 0-1h 18-24h | Wed 0-1h 18-24h | Thu 0-1h 18-24h | Fri 0-1h 18-24h | Sat 0-1h 18-24h | Sun 0-1h 18-24h
+7H30 - 19H00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+6h/21h 7j/7,{7j/7},1,parsed_text,Mon 6-21h | Tue 6-21h | Wed 6-21h | Thu 6-21h | Fri 6-21h | Sat 6-21h | Sun 6-21h
+7j/7 8H30-11H15/13H45-18H 20H-21H,{7j/7},1,parsed_text,Mon 8-11h 14-18h 20-21h | Tue 8-11h 14-18h 20-21h | Wed 8-11h 14-18h 20-21h | Thu 8-11h 14-18h 20-21h | Fri 8-11h 14-18h 20-21h | Sat 8-11h 14-18h 20-21h | Sun 8-11h 14-18h 20-21h
+7j/7 8h/19h,{7j/7},1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h | Sun 8-19h
+Accès interphone entre 8h30 et 19h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h
+7j/7 8h/21h45,{7j/7},1,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h | Sat 8-22h | Sun 8-22h
+Accessible à l'accueil RDC du Lundi au Vendredi de 8h00 à 21h00 et le Samedi de 8h30 à 18h00,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-21h | Tue 8-21h | Wed 8-21h | Thu 8-21h | Fri 8-21h | Sat 8-18h
+Accessible à l'Accueil RDC du Lundi au Vendredi de 9h00 à 20h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-20h | Tue 9-20h | Wed 9-20h | Thu 9-20h | Fri 9-20h
+Accessible à l'Accueil RDC du Lundi au Vendredi de 7h30 à 20h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-20h | Tue 7-20h | Wed 7-20h | Thu 7-20h | Fri 7-20h
+Accessible à l'Accueil RDC du Lundi au Samedi de 6h00 à 22h00,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 6-22h | Tue 6-22h | Wed 6-22h | Thu 6-22h | Fri 6-22h | Sat 6-22h
+Accessible à droite de l'Accueil RDC du Lundi au Vendredi de 8h00 à 21h00 et le Samedi de 8h00 à 12h00,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-21h | Tue 8-21h | Wed 8-21h | Thu 8-21h | Fri 8-21h | Sat 8-12h
+Accessible Hall Cafétéria RDC du Lundi au Vendredi de 7h30 à 22h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-22h | Tue 7-22h | Wed 7-22h | Thu 7-22h | Fri 7-22h
+Accessible Entrée du Centre Rez de Jardin du Lundi au Vendredi de 9h00 à 18h00 et le Samedi de 9h00 à 19h00,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-19h
+Accessible Accueil RDC du Lundi au Vendredi de 8h00 à 20h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+8h45 à 18h du L au V,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h
+7j/7 L au V 7h/20h S D 7h/19h,{7j/7},1,parsed_text,Mon 7-20h | Tue 7-20h | Wed 7-20h | Thu 7-20h | Fri 7-20h | Sat 7-19h | Sun 7-19h
+7j/7 9h/21h 22h/8h,"{7j/7,""jours fériés"",événements}",1,parsed_text,Mon 0-8h 9-21h 22-24h | Tue 0-8h 9-21h 22-24h | Wed 0-8h 9-21h 22-24h | Thu 0-8h 9-21h 22-24h | Fri 0-8h 9-21h 22-24h | Sat 0-8h 9-21h 22-24h | Sun 0-8h 9-21h 22-24h
+7j/7 9h/18h30,{7j/7},1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h | Sun 9-18h
+7j/7 9h/18h (7j/7 24h/24 uniquement pour les résidents),{7j/7},1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h | Sun 9-18h
+7j/7 8h/23h,"{7j/7,événements}",1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h | Sat 8-23h | Sun 8-23h
+7j/7 8h/22h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h | Sat 8-22h | Sun 8-22h
+L au D 9h/17h,{7j/7},1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h | Sat 9-17h | Sun 9-17h
+L au J 8h/17h05 V 8h/15h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-15h
+L au V 8h -18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h
+L au V 6h30/20h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 6-20h | Tue 6-20h | Wed 6-20h | Thu 6-20h | Fri 6-20h
+L au V 7h/17h S 7h30/12h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-17h | Tue 7-17h | Wed 7-17h | Thu 7-17h | Fri 7-17h | Sat 7-12h
+L au V 7h/12h 13h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-12h 13-16h | Tue 7-12h 13-16h | Wed 7-12h 13-16h | Thu 7-12h 13-16h | Fri 7-12h 13-16h
+L au V 7h-20h / S D 7h-19h,{7j/7},1,parsed_text,Mon 7-20h | Tue 7-20h | Wed 7-20h | Thu 7-20h | Fri 7-20h | Sat 7-19h | Sun 7-19h
+L au V 7h-19h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 7h-18h S 7h-12h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h | Sat 7-12h
+L au V 7H/17H30 S 8h/12h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-17h | Tue 7-17h | Wed 7-17h | Thu 7-17h | Fri 7-17h | Sat 8-12h
+L au V 6h30/22h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 6-22h | Tue 6-22h | Wed 6-22h | Thu 6-22h | Fri 6-22h
+L au V 6h30 / 17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 6-17h | Tue 6-17h | Wed 6-17h | Thu 6-17h | Fri 6-17h
+L au J 8h30-12h30/13h30-17h30 V 8h30-12h30/13h30-16h30 hors août et fin d'année,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L au V 6h15/19h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 6-19h | Tue 6-19h | Wed 6-19h | Thu 6-19h | Fri 6-19h
+L au V 6h-22h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 6-22h | Tue 6-22h | Wed 6-22h | Thu 6-22h | Fri 6-22h
+L au V 24h/24,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 0-24h | Tue 0-24h | Wed 0-24h | Thu 0-24h | Fri 0-24h
+L au V 10h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 10-18h | Tue 10-18h | Wed 10-18h | Thu 10-18h | Fri 10-18h
+L au V 10h/13h et 14h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 10-13h 14-16h | Tue 10-13h 14-16h | Wed 10-13h 14-16h | Thu 10-13h 14-16h | Fri 10-13h 14-16h
+L au V 10h/13h  14h/17h30 Ma 14h/17h30 -soirs de spectacle,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,événements}",1,parsed_text,Mon 10-13h 14-17h | Tue 14-17h | Wed 10-13h 14-17h | Thu 10-13h 14-17h | Fri 10-13h 14-17h
+L au V 10h/12h 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 10-12h 14-17h | Tue 10-12h 14-17h | Wed 10-12h 14-17h | Thu 10-12h 14-17h | Fri 10-12h 14-17h
+L au V 7h/17h30 S 7h30/12h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-17h | Tue 7-17h | Wed 7-17h | Thu 7-17h | Fri 7-17h | Sat 7-12h
+L au V 7h/17h30 S 8h/13h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-17h | Tue 7-17h | Wed 7-17h | Thu 7-17h | Fri 7-17h | Sat 8-13h
+L au V 7h/18h30 S 7h30/14h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h | Sat 7-14h
+L au V 7h/22h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-22h | Tue 7-22h | Wed 7-22h | Thu 7-22h | Fri 7-22h
+L au V 8H-17H,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au V 7h30/19h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 7h30/19h S 8h/18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h | Sat 8-18h
+L au V 7h30/18h30 sauf périodes de fermeture de l'établissement.,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 7h30/18h30 hors vacances scolaires,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+24h/24 7j/7,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 0-24h | Tue 0-24h | Wed 0-24h | Thu 0-24h | Fri 0-24h | Sat 0-24h | Sun 0-24h
+L au V 7h30/18h30,"{lundi,mardi,mercredi,jeudi,vendredi,événements}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 7h30/15h S 8h/12h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-15h | Tue 7-15h | Wed 7-15h | Thu 7-15h | Fri 7-15h | Sat 8-12h
+L au V 7h30/12h 13h30/18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-12h 13-18h | Tue 7-12h 13-18h | Wed 7-12h 13-18h | Thu 7-12h 13-18h | Fri 7-12h 13-18h
+L au V 7h30-21h15,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h
+L au V 7h30-19h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-19h | Tue 7-19h | Wed 7-19h | Thu 7-19h | Fri 7-19h
+L au V 7h30-18h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 7h30-11h30 / 13h20-18h30 sauf périodes vacances scolaires  Interphone à l'entrée,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-11h 13-18h | Tue 7-11h 13-18h | Wed 7-11h 13-18h | Thu 7-11h 13-18h | Fri 7-11h 13-18h
+L au V 7h30 / 18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 7-18h | Tue 7-18h | Wed 7-18h | Thu 7-18h | Fri 7-18h
+L au V 7h/22h30 S D selon événements,"{7j/7,événements}",1,parsed_text,Mon 7-22h | Tue 7-22h | Wed 7-22h | Thu 7-22h | Fri 7-22h
+L au V 10h-16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 10-16h | Tue 10-16h | Wed 10-16h | Thu 10-16h | Fri 10-16h
+L au V  9h/12h30 13h30/17h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-17h | Tue 9-12h 13-17h | Wed 9-12h 13-17h | Thu 9-12h 13-17h | Fri 9-12h 13-17h
+L au V  9h-12h30/13h30-17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-17h | Tue 9-12h 13-17h | Wed 9-12h 13-17h | Thu 9-12h 13-17h | Fri 9-12h 13-17h
+L au S 7h/23h D 7h/20h,{7j/7},1,parsed_text,Mon 7-23h | Tue 7-23h | Wed 7-23h | Thu 7-23h | Fri 7-23h | Sat 7-23h | Sun 7-20h
+L au S 7H30/21H30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h | Sat 7-21h
+L au S 14h-19h et jours fériés,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,""jours fériés""}",1,parsed_text,Mon 14-19h | Tue 14-19h | Wed 14-19h | Thu 14-19h | Fri 14-19h | Sat 14-19h
+L au S 10h/19h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 10-19h | Tue 10-19h | Wed 10-19h | Thu 10-19h | Fri 10-19h | Sat 10-19h
+L au Mer 8h30-17h00 / J 8h30-19h30/ V 8h30-17h00,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-19h | Fri 8-17h
+L au J 9h/19h30 V 9h/16h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-19h | Tue 9-19h | Wed 9-19h | Thu 9-19h | Fri 9-16h
+L au J 9h/18h V 9h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-17h
+L au J 9h/17h30 V 9h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au J 9h/17h30  V 9h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-17h | Tue 9-17h | Wed 9-17h | Thu 9-17h | Fri 9-17h
+L au J 9h/16h,"{lundi,mardi,mercredi,jeudi}",1,parsed_text,Mon 9-16h | Tue 9-16h | Wed 9-16h | Thu 9-16h
+L au J 9h/13h 14h/18h V 9h/13h 14h/17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-13h 14-18h | Tue 9-13h 14-18h | Wed 9-13h 14-18h | Thu 9-13h 14-18h | Fri 9-13h 14-17h
+L au J 9h/12h30 13h30/17h30 V 9h/12h30 13h30/16h40,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-12h 13-17h | Tue 9-12h 13-17h | Wed 9-12h 13-17h | Thu 9-12h 13-17h | Fri 9-12h 13-17h
+L au J 9h à 13 et 14h à 18h et V de 9h à 13h et de 14h a 17h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 9-13h 14-18h | Tue 9-13h 14-18h | Wed 9-13h 14-18h | Thu 9-13h 14-18h | Fri 9-13h 14-17h
+L au J 8h30/12h30 V 8h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h | Tue 8-12h | Wed 8-12h | Thu 8-12h | Fri 8-16h
+L au J 8h30/12h30 13h30/17h30 et V 16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L au J 8h30/12h30 13h30/17h30 V 8h30/12h30 13h30/16h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-12h 13-17h | Tue 8-12h 13-17h | Wed 8-12h 13-17h | Thu 8-12h 13-17h | Fri 8-12h 13-16h
+L au S 7H30/21H30 + selon évènements,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,événements}",1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h | Sat 7-21h
+L au S 7h30/21h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 7-21h | Tue 7-21h | Wed 7-21h | Thu 7-21h | Fri 7-21h | Sat 7-21h
+L au V  8h/17h30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-17h | Tue 8-17h | Wed 8-17h | Thu 8-17h | Fri 8-17h
+L au S 8H/19H30,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au V  8h-20h période scolaire,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h
+L au S 9h/18h D 9h/17h fermé en 2023,{7j/7},1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h | Sun 9-17h
+L au S 9h/18h D 9h/17h,{7j/7},1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h | Sun 9-17h
+L au S 9h/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 9-18h | Tue 9-18h | Wed 9-18h | Thu 9-18h | Fri 9-18h | Sat 9-18h
+L au S 8h30/19h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au S 8h30/19h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au S 8h30/18h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h | Sat 8-18h
+L au S 8h30-21h D 8h30-12h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Mon 8-21h | Tue 8-21h | Wed 8-21h | Thu 8-21h | Fri 8-21h | Sat 8-21h | Sun 8-12h
+L au S 8h30-19h00,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au S 8h30-18h,"{lundi,mardi,mercredi,jeudi,vendredi}",1,parsed_text,Mon 8-18h | Tue 8-18h | Wed 8-18h | Thu 8-18h | Fri 8-18h | Sat 8-18h
+L au S 8h30 à 22h et dimanche 8h30 à 12h30,"{lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche}",1,parsed_text,Mon 8-22h | Tue 8-22h | Wed 8-22h | Thu 8-22h | Fri 8-22h | Sat 8-22h | Sun 8-12h
+L au S 8h30 à 19h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-19h | Tue 8-19h | Wed 8-19h | Thu 8-19h | Fri 8-19h | Sat 8-19h
+L au S 8h/23h  D 10h/17h,{7j/7},1,parsed_text,Mon 8-23h | Tue 8-23h | Wed 8-23h | Thu 8-23h | Fri 8-23h | Sat 8-23h | Sun 10-17h
+L au S 8h/19h45,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-20h | Tue 8-20h | Wed 8-20h | Thu 8-20h | Fri 8-20h | Sat 8-20h
+L au S 8h/12h 13h/20h,"{lundi,mardi,mercredi,jeudi,vendredi,samedi}",1,parsed_text,Mon 8-12h 13-20h | Tue 8-12h 13-20h | Wed 8-12h 13-20h | Thu 8-12h 13-20h | Fri 8-12h 13-20h | Sat 8-12h 13-20h
+site ouvert le samedi matin jusqu'a 11h45,"{lundi,mardi,mercredi,vendredi,samedi}",1,assumed_business,Mon 9-18h | Tue 9-18h | Wed 9-18h | Fri 9-18h | Sat 9-18h

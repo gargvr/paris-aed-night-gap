@@ -1,0 +1,1202 @@
+{
+ "2.373491,48.893786": {
+  "address": "98 Rue de l'Ourcq 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.371643,48.889378": {
+  "address": "2 Rue Archereau 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.378851,48.892240": {
+  "address": "116 Avenue de Flandre 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 21,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.367077,48.822729": {
+  "address": "20 Avenue d'Ivry 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.386968,48.847246": {
+  "address": "35 Rue de Reuilly 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 16,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.399369,48.872653": {
+  "address": "20 Rue du Télégraphe 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.377144,48.867871": {
+  "address": "2 Rue Morand 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.349824,48.891739": {
+  "address": "4 Boulevard Ornano 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.409866,48.856388": {
+  "address": "90 Rue Saint-Blaise 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 18,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.322587,48.889098": {
+  "address": "99 Avenue de Clichy 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.337935,48.893130": {
+  "address": "Rue Montcalm 75018 Paris,Paris 18e Arrondissement",
+  "address_type": "street",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.350868,48.886786": {
+  "address": "18 Rue des Poissonniers 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.366408,48.831130": {
+  "address": "51 Rue Clisson 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 18,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.395203,48.845361": {
+  "address": "32 Rue de Picpus 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.382113,48.869711": {
+  "address": "17 Rue des Couronnes 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.404835,48.856163": {
+  "address": "108 Rue des Haies 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.372789,48.880824": {
+  "address": "45 Rue de Meaux 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.381091,48.861033": {
+  "address": "94 Rue du Chemin Vert 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.310462,48.836209": {
+  "address": "67 Rue de la Procession 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.377478,48.870599": {
+  "address": "1 Rue de la Présentation 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.345210,48.878747": {
+  "address": "41 Rue Marguerite de Rochechouart 75009 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.383039,48.873547": {
+  "address": "94 Rue Rébeval 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.326146,48.886583": {
+  "address": "50 Avenue de Clichy 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.402889,48.875380": {
+  "address": "100 Rue Haxo 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.404228,48.871756": {
+  "address": "183 Avenue Gambetta 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.396169,48.838750": {
+  "address": "95 Rue Claude Decaen 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.392399,48.875350": {
+  "address": "38 Rue Levert 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 14,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.286473,48.843676": {
+  "address": "110 Rue de Javel 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.289628,48.838710": {
+  "address": "185 Rue de la Croix Nivert 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.399928,48.854113": {
+  "address": "42 Rue des Vignoles 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.300745,48.835887": {
+  "address": "238 Rue de la Convention 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.327204,48.893007": {
+  "address": "2 Rue de la Jonquière 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 20,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.369462,48.828031": {
+  "address": "14 Rue Jean Colly 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.322254,48.832011": {
+  "address": "29 Rue de la Sablière 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.394815,48.883369": {
+  "address": "125 Boulevard Sérurier 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.388196,48.870669": {
+  "address": "75 Rue des Couronnes 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.322017,48.893737": {
+  "address": "55 Rue de la Jonquière 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.271156,48.850545": {
+  "address": "37 Rue Jean de la Fontaine 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.399789,48.835804": {
+  "address": "38 Rue Claude Decaen 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.344528,48.894501": {
+  "address": "7 Rue Versigny 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.380140,48.857518": {
+  "address": "134 Rue de la Roquette 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.282382,48.841728": {
+  "address": "45 Rue Lacordaire 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.343084,48.889829": {
+  "address": "40 Rue du Mont Cenis 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.376619,48.890525": {
+  "address": "94 Avenue de Flandre 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 23,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.303712,48.889746": {
+  "address": "207 Boulevard Malesherbes 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.355351,48.822902": {
+  "address": "36 Rue Damesme 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.365090,48.819899": {
+  "address": "111 Boulevard Masséna 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.290327,48.835948": {
+  "address": "27 Rue Desnouettes 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.379492,48.884867": {
+  "address": "41 Avenue de Laumière 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.385225,48.858863": {
+  "address": "166B Rue de la Roquette 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.329527,48.826316": {
+  "address": "27 Rue Sarrette 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.307744,48.838960": {
+  "address": "17 Rue Plumet 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.409780,48.859010": {
+  "address": "112B Boulevard Davout 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.338569,48.896594": {
+  "address": "156 Rue Damrémont 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.278996,48.859816": {
+  "address": "34 Rue Nicolo 75116 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.363649,48.872919": {
+  "address": "85 Quai de Valmy 75010 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.389602,48.855428": {
+  "address": "150 Rue de Charonne 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.385011,48.852631": {
+  "address": "26 Rue Chanzy 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.333408,48.890632": {
+  "address": "103B Rue Lamarck 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.387489,48.874723": {
+  "address": "2 Rue de la Villette 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.319275,48.887173": {
+  "address": "67 Rue Truffaut 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.300525,48.881609": {
+  "address": "103 Rue de Courcelles 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.336517,48.899091": {
+  "address": "37 Rue René Binet 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 19,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.400631,48.839792": {
+  "address": "1 Rue Louis Braille 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.314664,48.884329": {
+  "address": "36 Rue Legendre 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.349745,48.883548": {
+  "address": "170 Boulevard de Magenta 75010 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.399625,48.868597": {
+  "address": "19 Rue Dupont de l'Eure 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.270804,48.855366": {
+  "address": "87 Rue du Ranelagh 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.400003,48.878454": {
+  "address": "36 Rue des Bois 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.317941,48.829608": {
+  "address": "77 Rue Didot 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.373988,48.877834": {
+  "address": "101T Avenue Simon Bolivar 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.374432,48.855593": {
+  "address": "47 Rue de la Roquette 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.403679,48.836784": {
+  "address": "255 Avenue Daumesnil 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.299421,48.840472": {
+  "address": "2 Rue Maublanc 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.315426,48.833409": {
+  "address": "33 Rue de Gergovie 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.353683,48.889000": {
+  "address": "36 Rue Léon 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.267096,48.850742": {
+  "address": "108 Avenue Mozart 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.378940,48.872719": {
+  "address": "23 Rue de Belleville 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.289094,48.883910": {
+  "address": "21 Boulevard Gouvion-Saint-Cyr 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.347528,48.886966": {
+  "address": "1 Rue Ramey 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.392445,48.850600": {
+  "address": "247 Boulevard Voltaire 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.391322,48.884214": {
+  "address": "36 Rue d'Alsace-Lorraine 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.406076,48.858770": {
+  "address": "31 Rue Saint-Blaise 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.321202,48.891626": {
+  "address": "26 Rue Sauffroy 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.295121,48.842780": {
+  "address": "101 Rue de la Croix Nivert 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 14,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.280841,48.867664": {
+  "address": "130 Rue de la Pompe 75116 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 16,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.295728,48.881314": {
+  "address": "30B Avenue Niel 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.347064,48.876840": {
+  "address": "2 Rue Pierre Semard 75009 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 18,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.297362,48.889278": {
+  "address": "1 Rue Raymond Pitet 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 24,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.313702,48.841190": {
+  "address": "52 Boulevard Pasteur 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.394219,48.865777": {
+  "address": "12 Rue Villiers de l'Isle Adam 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.290489,48.842057": {
+  "address": "155 Rue de Javel 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.293233,48.851424": {
+  "address": "25 Rue George Bernard Shaw 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.399307,48.857484": {
+  "address": "58 Rue de Bagnolet 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.343899,48.822607": {
+  "address": "59Z Rue Brillat-Savarin 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.295687,48.834418": {
+  "address": "47 Rue Olivier de Serres 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.326476,48.890593": {
+  "address": "1 Rue Davy 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.409153,48.869218": {
+  "address": "78 Boulevard Mortier 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.340879,48.877606": {
+  "address": "14 Rue Choron 75009 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.406542,48.852722": {
+  "address": "100 Rue d'Avron 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.257898,48.837979": {
+  "address": "219 Avenue de Versailles 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.326462,48.895693": {
+  "address": "20 Rue Navier 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.394367,48.877593": {
+  "address": "5 Rue Louise Thuliez 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.297591,48.837928": {
+  "address": "304 Rue de Vaugirard 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.349685,48.879813": {
+  "address": "67 Rue de Maubeuge 75010 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.321799,48.835928": {
+  "address": "16 Rue Raymond Losserand 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.360284,48.871347": {
+  "address": "9T Rue Lucien Sampaix 75010 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.361288,48.890121": {
+  "address": "77 Rue Riquet 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.286044,48.840261": {
+  "address": "16 Rue Duranton 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.363226,48.862442": {
+  "address": "21 Rue de Bretagne 75003 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.368336,48.884812": {
+  "address": "Rue Gaston Rébuffat 75019 Paris,Paris 19e Arrondissement",
+  "address_type": "street",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.396151,48.853889": {
+  "address": "73 Boulevard de Charonne 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.395652,48.871599": {
+  "address": "27 Rue Pixérécourt 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.402232,48.842822": {
+  "address": "25 Rue Sibuet 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.386121,48.855987": {
+  "address": "49Z Rue Léon Frot 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.370645,48.863914": {
+  "address": "30 Rue Oberkampf 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.387608,48.841593": {
+  "address": "153 Avenue Daumesnil 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 18,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.298987,48.828924": {
+  "address": "82 Boulevard Lefebvre 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 14,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.322614,48.829385": {
+  "address": "108 Rue d'Alésia 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.302787,48.842712": {
+  "address": "112 Rue Lecourbe 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.281266,48.838197": {
+  "address": "121 Avenue Félix Faure 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.347870,48.894498": {
+  "address": "2 Rue Neuve de la Chardonnière 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.345956,48.830204": {
+  "address": "99 Boulevard Auguste Blanqui 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 19,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.290967,48.879157": {
+  "address": "5 Place Tristan Bernard 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.290132,48.848183": {
+  "address": "61 Rue du Théâtre 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.383312,48.867223": {
+  "address": "2 Boulevard de Belleville 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.289533,48.844981": {
+  "address": "70 Rue des Entrepreneurs 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.394177,48.835822": {
+  "address": "22 Rue Nicolaï 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.347742,48.868512": {
+  "address": "2 Rue Poissonnière 75002 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.285394,48.846758": {
+  "address": "2 Place Charles Michels 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 21,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.340478,48.880541": {
+  "address": "60 Rue des Martyrs 75009 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.265582,48.840894": {
+  "address": "22 Boulevard Exelmans 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.377243,48.853433": {
+  "address": "115 Avenue Ledru-Rollin 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 3,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.370419,48.830398": {
+  "address": "16 Rue Dunois 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.373216,48.866872": {
+  "address": "103 Avenue Parmentier 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.400628,48.851650": {
+  "address": "24 Rue d'Avron 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.390029,48.839151": {
+  "address": "5 Boulevard de Reuilly 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 24,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.375488,48.860713": {
+  "address": "73 Boulevard Voltaire 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.410054,48.844461": {
+  "address": "111 Avenue de Saint-Mandé 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.381014,48.863928": {
+  "address": "20 Rue Guillaume Bertrand 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 17,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.389515,48.872898": {
+  "address": "4 Place Henri Krasucki 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.361319,48.893213": {
+  "address": "15 Rue de la Madone 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.338673,48.889908": {
+  "address": "3 Rue Pierre Dac 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.350156,48.821524": {
+  "address": "12 Rue Madeleine Brès 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.316185,48.881510": {
+  "address": "Place Prosper Goubaux 75017 Paris,Paris 17e Arrondissement",
+  "address_type": "street",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.406237,48.866420": {
+  "address": "5 Place Octave Chanute 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.382330,48.887620": {
+  "address": "16 Rue Léon Giraud 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.388726,48.852810": {
+  "address": "199 Boulevard Voltaire 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 11,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.349787,48.889532": {
+  "address": "76B Boulevard Barbès 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.330877,48.891046": {
+  "address": "142 Rue Lamarck 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.346753,48.824929": {
+  "address": "51 Rue de l'Espérance 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.308239,48.886893": {
+  "address": "19 Rue Cernuschi 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.292074,48.881916": {
+  "address": "40 Rue Bayen 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.374664,48.825632": {
+  "address": "33 Rue du Dessous des Berges 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.394170,48.856396": {
+  "address": "182 Rue de Charonne 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.333942,48.830183": {
+  "address": "16 Avenue René Coty 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 17,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.293921,48.848714": {
+  "address": "18B Rue Violet 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.274856,48.848733": {
+  "address": "Rue Degas 75016 Paris,Paris 16e Arrondissement",
+  "address_type": "street",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.389718,48.879535": {
+  "address": "42 Rue de Crimée 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.325845,48.832499": {
+  "address": "16 Rue Pierre Castagnou 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.355587,48.886834": {
+  "address": "24 Rue Affre 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.404753,48.840740": {
+  "address": "128 Avenue du Général Michel Bizot 75012 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.359061,48.835978": {
+  "address": "115 Boulevard de l'Hôpital 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.308672,48.829194": {
+  "address": "195B Rue Raymond Losserand 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.322388,48.886335": {
+  "address": "35 Rue Nollet 75017 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.374862,48.882923": {
+  "address": "60 Rue Armand Carrel 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 2,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.334870,48.880436": {
+  "address": "1 Rue Chaptal 75009 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.258319,48.845226": {
+  "address": "101 Boulevard Exelmans 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 9,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.400727,48.871164": {
+  "address": "14 Rue Saint-Fargeau 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.408951,48.864183": {
+  "address": "Place de la Porte de Bagnolet 75020 Paris,Paris 20e Arrondissement",
+  "address_type": "street",
+  "address_distance_m": 16,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.354987,48.863793": {
+  "address": "70 Rue Beaubourg 75003 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.379509,48.876241": {
+  "address": "16 Rue des Dunes 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 15,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.307983,48.833837": {
+  "address": "54 Rue de Vouillé 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.394464,48.886267": {
+  "address": "2 Avenue de la Porte Chaumont 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.284624,48.858371": {
+  "address": "1 Rue Raynouard 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.358652,48.822364": {
+  "address": "111 Avenue d'Italie 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.352376,48.843211": {
+  "address": "3 Rue Malus 75005 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.365236,48.828834": {
+  "address": "3 Place Nationale 75013 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 16,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.378412,48.850813": {
+  "address": "143 Rue du Faubourg Saint-Antoine 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.312451,48.830950": {
+  "address": "153 Rue Raymond Losserand 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.308724,48.846671": {
+  "address": "18 Rue Valentin Haüy 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 7,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.342924,48.892058": {
+  "address": "11 Rue Duc 75018 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.386332,48.886898": {
+  "address": "142 Avenue Jean Jaurès 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.341880,48.826336": {
+  "address": "Place Coluche 75013 Paris,Paris 13e Arrondissement",
+  "address_type": "street",
+  "address_distance_m": 13,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.302132,48.845458": {
+  "address": "42 Rue Miollis 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.264406,48.848036": {
+  "address": "48 Rue d'Auteuil 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 22,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.368022,48.871687": {
+  "address": "38 Rue Bichat 75010 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.355538,48.868664": {
+  "address": "330 Rue Saint-Martin 75003 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.326570,48.883164": {
+  "address": "5 Boulevard des Batignolles 75008 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.412994,48.849022": {
+  "address": "13 Rue Louis Delaporte 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 16,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.376903,48.857962": {
+  "address": "23 Rue Popincourt 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.376608,48.893431": {
+  "address": "91 Rue de l'Ourcq 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.304276,48.836705": {
+  "address": "52 Rue d'Alleray 75015 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.391805,48.869136": {
+  "address": "92 Rue de Ménilmontant 75020 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.385201,48.861048": {
+  "address": "38 Rue Merlin 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 12,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.326918,48.834910": {
+  "address": "53 Rue Daguerre 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 6,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.381519,48.894553": {
+  "address": "173 Avenue de Flandre 75019 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 5,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.329792,48.829675": {
+  "address": "50 Rue Rémy Dumoncel 75014 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 4,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.379281,48.866049": {
+  "address": "114 Rue Oberkampf 75011 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 10,
+  "geocoder": "api-adresse.data.gouv.fr"
+ },
+ "2.275696,48.852872": {
+  "address": "2 Rue Jean de la Fontaine 75016 Paris",
+  "address_type": "housenumber",
+  "address_distance_m": 8,
+  "geocoder": "api-adresse.data.gouv.fr"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "objective": "residents within 200 m walk, Tue 03h, strict_unconditional (Filosofi 2021 on streets)",
+ "candidates": 77294,
+ "residents_total": 1981133,
+ "baseline": {
+  "declared": 0.1515,
+  "strict": 0.1111,
+  "strict_unconditional": 0.1036
+ },
+ "after_n": {
+  "25": {
+   "declared": 0.2073,
+   "strict": 0.1679,
+   "strict_unconditional": 0.1609
+  },
+  "50": {
+   "declared": 0.2538,
+   "strict": 0.2161,
+   "strict_unconditional": 0.2093
+  },
+  "100": {
+   "declared": 0.3347,
+   "strict": 0.3009,
+   "strict_unconditional": 0.2944
+  },
+  "200": {
+   "declared": 0.4715,
+   "strict": 0.4451,
+   "strict_unconditional": 0.439
+  }
+ },
+ "residents_gained": {
+  "25": 113584,
+  "50": 209337,
+  "100": 378011,
+  "200": 664543
+ },
+ "marginal_gain_at": {
+  "25": 4095,
+  "50": 3662,
+  "100": 3179,
+  "200": 2605
+ },
+ "robustness_node_allocation_overlap_within_100m": {
+  "25": 14,
+  "50": 24,
+  "100": 53,
+  "200": 108
+ },
+ "geocoder_used": {
+  "api-adresse.data.gouv.fr": 200
+ },
+ "address_distance_m": {
+  "median": 8.0,
+  "max": 24.0
+ },
+ "sites_within_50m_of_existing_aed": 54
+}
