@@ -46,7 +46,13 @@ Night figures do **not** depend on the opening-hours assumption: they come only 
 | [BAN / api-adresse.data.gouv.fr](https://adresse.data.gouv.fr/) | addresses of proposed sites | queried 2026-09-19 |
 
 OSM data © OpenStreetMap contributors (ODbL). Géo'DAE, Filosofi and BAN are French open data
-(Licence Ouverte / Etalab).
+(Licence Ouverte / Etalab). The narration voice is [Piper](https://github.com/OHF-Voice/piper1-gpl) (MIT),
+run locally with the `en_US-lessac-medium` voice.
+
+**Licences.** The code in this repository is MIT ([LICENSE](LICENSE)). The derived tables, figures and video in
+`outputs/` are produced from OpenStreetMap data and are therefore subject to the
+[ODbL](https://opendatacommons.org/licenses/odbl/): reuse them with the attribution shown above, and share
+derived databases under the same terms.
 
 ## Method, step by step
 
@@ -132,11 +138,17 @@ recreates them.
 
 ## Video
 
-`outputs/video/paris_aed_night_gap.mp4` (58 s, 1920×1080, no audio) animates the results on the real OSM
+`outputs/video/paris_aed_night_gap.mp4` (86 s, 1920×1080, narrated; a silent cut is next to it) animates the results on the real OSM
 street network: a 24-hour sweep of which streets have a reachable AED, the three night scenarios at 3am,
 the residents-without-cover map, and the candidate sites being added one by one. It is rendered by
 `scripts/06_video.py` with matplotlib and encoded with ffmpeg; every figure in it comes from steps 3–5,
 and each frame carries its data attribution.
+
+The narration is spoken by [Piper](https://github.com/OHF-Voice/piper1-gpl), a local neural TTS — no cloud
+service, nothing sent anywhere. The spoken script, with timings, is in `outputs/video/narration.txt`, and the
+text lives in `NARRATION` at the top of `scripts/06_video.py`. Run `python scripts/06_video.py --silent` to
+skip the voice, or change `VOICE` for a different one
+(`python -m piper.download_voices --download-dir data/raw/voices en_GB-alba-medium`).
 
 ## Repository layout
 

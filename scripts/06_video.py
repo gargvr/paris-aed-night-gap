@@ -10,7 +10,13 @@ the site-by-site coverage curve, which reuses the step-5 sites.
 Distinct images are rendered once and held for a chosen duration by ffmpeg
 (concat demuxer), so a 75 s film needs ~180 renders rather than 2,250.
 
-Output: outputs/video/paris_aed_night_gap.mp4 (1920x1080, 30 fps, no audio)
+Narration (optional, --narrate) is spoken by Piper, an MIT-licensed local
+neural TTS; scene durations stretch to fit the speech. Nothing is sent to a
+cloud service.
+
+Outputs: outputs/video/paris_aed_night_gap.mp4        (with narration)
+         outputs/video/paris_aed_night_gap_silent.mp4 (frames only)
+         outputs/video/narration.txt                  (the spoken script)
 """
 from __future__ import annotations
 
@@ -41,11 +47,40 @@ T, FPS = 200.0, 30
 W, H, DPI = 1920, 1080, 120
 COVERED, UNCOVERED, SURFACE, INK, INK2 = "#2a78d6", "#dcdbd5", "#fcfcfb", "#0b0b0b", "#52514e"
 SITE, GRID_LINE = "#eb6834", "#e4e3df"
+VOICE = "en_US-lessac-medium"
+GAP_AFTER_LINE = 0.45  # seconds of silence after each narrated line
+
+# The spoken script. Keys are frame names; a line plays from that frame on.
+# Numbers are written out so the TTS reads them the way a person would.
+NARRATION = {
+    "title": "Paris has more than four thousand defibrillators on the public register. "
+             "The real question is how many of them you can actually reach at three in the morning.",
+    "hour00": "This is every Paris street within a two hundred metre walk of a defibrillator that is "
+              "available at that hour, across one ordinary Tuesday.",
+    "hour08": "Around eight, the city lights up, as offices, shops and pharmacies open.",
+    "hour18": "In the evening it goes dark again. Almost all of this supply sits indoors, on daytime hours.",
+    "night_declared": "At three in the morning, going by what operators themselves declare, about fifteen "
+                      "percent of residents have one within reach.",
+    "night_strict": "Count only the devices that are outdoors, or marked freely accessible, and it falls to "
+                    "eleven percent.",
+    "night_strict_unconditional": "Take out the ones behind a badge, a guard or an intercom, and about ten "
+                                  "percent remain.",
+    "gap": "That leaves roughly one point eight million residents with no defibrillator within a two hundred "
+           "metre walk.",
+    "sites001": "So where would new outdoor units, open around the clock, do the most good?",
+    "sites025": "Twenty-five of them would lift night coverage from ten percent to sixteen.",
+    "sites050": "Fifty take it to twenty-one percent.",
+    "sites100": "A hundred reach twenty-nine. Even two hundred would still leave more than half of Paris "
+                "uncovered at night.",
+    "end": "These are declared opening hours, not checks on the ground, and this measures walking distance, "
+           "not survival. The sites are candidates to survey. The data, the code and the limits are all published.",
+}
+
 CREDIT = ("Streets © OpenStreetMap contributors · AEDs: Géo'DAE (data.gouv.fr) 2026-09-19 · "
           "Residents: INSEE Filosofi 2021 · Availability is what operators declare, not a site check")
 
 
-def build_frames() -> list[tuple[str, float]]:
+def build_frames() -> list[list]:
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
@@ -87,7 +122,7 @@ def build_frames() -> list[tuple[str, float]]:
                       shape(json.loads((RAW / "paris_commune_75056.geojson").read_text())["geometry"]))
 
     FRAMES.mkdir(parents=True, exist_ok=True)
-    plan: list[tuple[str, float]] = []
+    plan: list[list] = []
     seq = [0]
 
     def new_fig():
@@ -102,7 +137,7 @@ def build_frames() -> list[tuple[str, float]]:
         p = FRAMES / f"{seq[0]:04d}_{name}.png"
         fig.savefig(p, facecolor=SURFACE)
         plt.close(fig)
-        plan.append((p.name, dur))
+        plan.append([p.name, dur, name])
         seq[0] += 1
 
     def draw_map(ax, frac, sites_xy=None, gap=None):
@@ -171,13 +206,13 @@ def build_frames() -> list[tuple[str, float]]:
     d0 = dist_for(24 + 3, "strict_unconditional")
     _, base_share = cover(d0)
     uncovered_people = total * (1 - base_share)
-    for dur, note in ((2.5, ""), (3.0, "Darker cells: more people with no defibrillator within reach")):
+    for gi, (dur, note) in enumerate(((2.5, ""), (3.0, "Darker cells: more people with no defibrillator within reach"))):
         fig, ax = new_fig()
         draw_map(ax, None, gap=gap)
         headline(fig, f"{uncovered_people / 1e6:.2f} million residents", note or "Tuesday 03:00 — nobody within a "
                  "200 m walk of a reachable defibrillator", f"{1 - base_share:.0%}",
                  "of residents with none in reach", right_color=INK)
-        save(fig, dur, "gap")
+        save(fig, dur, "gap" if gi == 0 else "gap_detail")
 
     # ---------------- scene 5: adding 24/7 outdoor units
     sites = pd.read_csv(OUT / "05_proposed_sites.csv")
@@ -222,21 +257,83 @@ def build_frames() -> list[tuple[str, float]]:
     return plan
 
 
-def encode(plan: list[tuple[str, float]]) -> Path:
+def synthesize(plan: list[list]) -> tuple[np.ndarray, int]:
+    """Speak each narration line with Piper, stretch scenes to fit, return the track."""
+    import wave
+
+    from piper import PiperVoice
+
+    voice = PiperVoice.load(RAW / f"voices/{VOICE}.onnx")
+    clips = []
+    for i, (_, _, key) in enumerate(plan):
+        if key not in NARRATION:
+            continue
+        wav_path = VID / f"line_{i:02d}.wav"
+        with wave.open(str(wav_path), "wb") as w:
+            voice.synthesize_wav(NARRATION[key], w)
+        with wave.open(str(wav_path)) as w:
+            rate = w.getframerate()
+            audio = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
+        clips.append((i, audio, len(audio) / rate))
+        wav_path.unlink()
+
+    def starts():
+        return np.concatenate([[0.0], np.cumsum([d for _, d, _ in plan])])
+
+    for j, (i, _, length) in enumerate(clips):
+        need = starts()[i] + length + GAP_AFTER_LINE
+        if j + 1 < len(clips):
+            nxt = clips[j + 1][0]
+            short = need - starts()[nxt]
+            if short > 0:
+                plan[nxt - 1][1] += short
+        elif need > starts()[-1]:
+            plan[-1][1] += need - starts()[-1]
+
+    total = starts()[-1]
+    track = np.zeros(int(total * rate) + rate, dtype=np.float32)
+    lines = []
+    for i, audio, length in clips:
+        at = starts()[i]
+        track[int(at * rate):int(at * rate) + len(audio)] = audio.astype(np.float32)
+        lines.append(f"{int(at) // 60:d}:{at % 60:05.2f}  {NARRATION[plan[i][2]]}")
+    peak = float(np.abs(track).max()) or 1.0
+    track = (track * (0.89 * 32767 / peak)).astype(np.int16)  # leave ~1 dB of headroom
+    (VID / "narration.txt").write_text(
+        f"Narration script — {VOICE} (Piper, local TTS)\n\n" + "\n\n".join(lines) + "\n")
+    return track, rate
+
+
+def encode(plan: list[list], track=None, rate: int = 22050) -> Path:
     concat = VID / "concat.txt"
     with concat.open("w") as f:
-        for name, dur in plan:
+        for name, dur, _ in plan:
             f.write(f"file 'frames/{name}'\nduration {dur:.3f}\n")
         f.write(f"file 'frames/{plan[-1][0]}'\n")  # ffmpeg needs the last frame twice
-    out = VID / "paris_aed_night_gap.mp4"
+    silent = VID / "paris_aed_night_gap_silent.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(concat),
                     "-vf", f"fps={FPS},format=yuv420p", "-c:v", "libx264", "-crf", "20", "-preset", "medium",
+                    "-movflags", "+faststart", str(silent)], check=True)
+    if track is None:
+        return silent
+    import wave
+    wav_path = VID / "narration.wav"
+    with wave.open(str(wav_path), "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(rate)
+        w.writeframes(track.tobytes())
+    out = VID / "paris_aed_night_gap.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(wav_path),
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest",
                     "-movflags", "+faststart", str(out)], check=True)
     return out
 
 
 if __name__ == "__main__":
+    narrate = "--silent" not in sys.argv
     plan = build_frames()
-    out = encode(plan)
-    total = sum(d for _, d in plan)
+    track, rate = synthesize(plan) if narrate else (None, 22050)
+    out = encode(plan, track, rate)
+    total = sum(d for _, d, _ in plan)
     print(f"{len(plan)} frames, {total:.1f}s -> {out} ({out.stat().st_size / 1e6:.1f} MB)")
